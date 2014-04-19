@@ -1,7 +1,10 @@
 $(document).ready(function(){
 	
 
-	// Fancybox for any modules 
+
+	// $('#music-notes').fadeIn(1000).fadeOut(1000);
+
+	// // Fancybox
 	// $(".fancybox").fancybox();
 
 
