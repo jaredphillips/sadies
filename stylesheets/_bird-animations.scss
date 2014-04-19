@@ -1,0 +1,30 @@
+/* Animations */
+
+@-webkit-keyframes bird-from-left {
+  0%   { top: -200px; left: -280px;   }
+  50%  { top: -50px; left: -190px;   }
+  100% { top: -30px; left: -170px;  }
+}
+
+@-webkit-keyframes bird-from-right {
+  0%   { top: -107px; left: 310px;  }
+  10%  { top: -90px;  left: 274px;  }
+  20%  { top: -80px;  left: 238px;  }
+  30%  { top: -70px;  left: 202px;  }
+  40%  { top: -50px;  left: 166px;  }
+  50%  { top: -60px;  left: 130px;  }
+  60%  { top: -40px;  left: 94px;  }
+  70%  { top: -25px;  left: 58px   }
+  80%  { top: -10px;  left: 22px;  }
+  90%  { top: -4px;    left: -14px   }
+  100% { top: -7px;   left: -50px;  }
+}
+
+@-webkit-keyframes musical-note {
+  0%   { opacity: 0 }
+  20%  { opacity: 1 }
+  40%  { opacity: 0 }
+  60%  { opacity: 1 }
+  80%  { opacity: 0 }
+  100% { opacity: 1 }
+}

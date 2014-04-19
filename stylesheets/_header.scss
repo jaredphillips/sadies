@@ -1,0 +1,73 @@
+
+
+header {
+  background: #f9f5f2;
+  height: 150px;
+  width: 99%;
+  margin: .5% auto;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  height: 130px;
+  opacity: .8;
+  max-width: 100%;
+}
+
+.left-bird {
+  height: 69px;
+  position: relative;
+  top: -30px;
+  left: -170px;
+  opacity: .8;
+  -webkit-animation: bird-from-left 1.5s linear;
+  max-width: 100%;
+}
+
+.left-bird:hover {
+  -ms-transform: rotate(-13deg); /* IE 9 */
+  -webkit-transform: rotate(-13deg); /* Chrome, Safari, Opera */
+  transform: rotate(-13deg);
+}
+
+.right-bird {
+  height: 58px;
+  position: relative;
+  top: -7px;
+  left: -50px;
+  opacity: .8;
+  -webkit-animation: bird-from-right 1.9s linear;
+  z-index: 50;
+  max-width: 100%;
+}
+
+.right-bird:hover {
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+
+.music-note {
+  position: relative;
+  top: -10px;
+  left: -0px;
+  opacity: 0;
+  max-width: 100%;
+  -webkit-animation: musical-note 4s ease 3s forwards;
+}
+
+.nav-list {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 20px;
+  display: inline;
+}
+
+li {
+  display: inline-block;
+  float: right;
+}
+
+
