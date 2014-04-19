@@ -119,8 +119,8 @@ header {
   }
 
   100% {
-    top: 55px;
-    left: 20px;
+    top: 42px;
+    left: 50px;
   }
 }
 
@@ -146,13 +146,13 @@ header {
   }
 
   75% {
-    top: 40px;
+    top: 70px;
     left: 400px;
   }
 
   100% {
-    top: 80px;
-    left: 340px;
+    top: 83px;
+    left: 320px;
   }
 }
 

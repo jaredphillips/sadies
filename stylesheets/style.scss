@@ -122,7 +122,7 @@ header {
 @-webkit-keyframes bird-from-left {
   0%   { top: -30px; left: -100px;   }
   50%  { top: 30px; left: 15px;   }
-  100% { top: 55px; left: 20px;  }
+  100% { top: 42px; left: 50px;  }
 }
 
 @-webkit-keyframes bird-from-right {
@@ -130,8 +130,8 @@ header {
   10%  { top: 10px;  left: 700px;  }
   25%  { top: 20px;  left: 600px   }
   50%  { top: 50px;  left: 500px;  }
-  75%  { top: 40px;  left: 400px   }
-  100% { top: 80px;  left: 340px;  }
+  75%  { top: 70px;  left: 400px   }
+  100% { top: 83px;  left: 320px;  }
 }
 
 @-webkit-keyframes musical-note {
