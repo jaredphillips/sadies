@@ -5,12 +5,14 @@ header {
   height: 150px;
   width: 99%;
   margin: .5% auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .logo {
   position: relative;
-  top: 20px;
-  left: 100px;
+  top: 0px;
+  left: 70px;
   height: 130px;
   opacity: .8;
   max-width: 100%;
@@ -19,10 +21,10 @@ header {
 .left-bird {
   height: 69px;
   position: relative;
-  top: -30px;
-  left: -170px;
+  top: -50px;
+  left: -190px;
   opacity: .8;
-  -webkit-animation: bird-from-left 1.5s linear;
+  // -webkit-animation: bird-from-left 1.5s linear;
   max-width: 100%;
 }
 
@@ -35,10 +37,10 @@ header {
 .right-bird {
   height: 58px;
   position: relative;
-  top: -7px;
-  left: -50px;
+  top: -26px;
+  left: -80px;
   opacity: .8;
-  -webkit-animation: bird-from-right 1.9s linear;
+  // -webkit-animation: bird-from-right 1.9s linear;
   z-index: 50;
   max-width: 100%;
 }
@@ -51,11 +53,11 @@ header {
 
 .music-note {
   position: relative;
-  top: -10px;
-  left: -0px;
+  top: -30px;
+  left: -75px;
   opacity: 0;
   max-width: 100%;
-  -webkit-animation: musical-note 4s ease 3s forwards;
+  // -webkit-animation: musical-note 4s ease 3s forwards;
 }
 
 .nav-list {
@@ -65,9 +67,19 @@ header {
   display: inline;
 }
 
-li {
+.nav-list {
   display: inline-block;
   float: right;
 }
+
+li {
+  float: left;
+  overflow: hidden;
+}
+
+.nav-list li:last-of-type {
+  margin-right: 40px;
+}
+
 
 
