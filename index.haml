@@ -1,0 +1,38 @@
+!!! 5
+%html
+	%title Sadie' Diner
+	%meta{ charset: "UTF-8" }
+	%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
+	%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
+	%meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
+	%link{ href: "http://fonts.googleapis.com/css?family=Lato", rel: "stylesheet", type: "text/css" }
+	%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: "text/css" }
+%body
+	%header.clearfix
+		%a{ href: "index.html" }
+			%img.logo{ src: "images/logo.png", alt: "logo" }
+		%img.left-bird{ src: "images/left-bird.png", alt: "flying bird" }
+		%img.music-note#music-notes{ src: "images/music-note.png" }
+		%img.right-bird{ src: "images/right-bird.png", alt: "singing bird" }
+		%ul.nav-list
+			%li
+				%span.icon-book
+					%a.nav-link{ href: "#" } menu
+			%li
+				%span.icon-palette
+					%a.nav-link{ href: "#" } artshow
+			%li
+				%span.icon-heart2
+					%a.nav-link{ href: "#" } chili-for-charity
+			%li
+				%span.icon-phone
+					%a.nav-link{ href: "#" } contact
+	.grid-wrapper
+		.grid.outer-pad
+			.col-1-3
+				.module
+			.col-2-3
+				.module
+
+	%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
+	%script{ type: "text/javascript", src: "js/min/script.min.js" }

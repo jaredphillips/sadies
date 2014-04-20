@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-	<head>
-		<title>Sadie's Diner</title>
-		<meta charset="UTF-8"/>
-		<html lang="en"/>
-		<link type="image/png" href="images/favicon.png" rel="icon"/>
-		<!-- <link rel="apple-touch-icon" href="somepath/image.png" /> -->
-		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>	
-	</head>
-
-	<body>
-		<header class="clearfix">
-			<a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
-			<img class="left-bird" src="images/left-bird.png" alt="flying-bird">
-			<img id="music-notes" class="music-note" src="images/music-note.png">
-			<img class="right-bird" src="images/right-bird.png" alt="singing-bird">
-			<ul class="nav-list">
-				<li><a href="#"><span class="icon-book"></span>menu</a></li>
-				<li><a href="#"><span class="icon-palette"></span><span class="mls">artshow</a></li>
-				<li><a href="#"><span class="icon-heart2"></span><span class="mls">chili-for-charity</a></li>
-				<li><a href="#"><span class="icon-phone"></span><span class="mls">contact</a></li>
-			</ul>
-		</header>
-		<div class="grid outer-pad">
-			<div class="col-1-3">
-				<div class="module">
-				</div>
-			</div>
-			<div class="col-2-3">
-				<div class="module">
-				</div>
-			</div>
-		</div>
-		
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/min/script.min.js"></script>
-	</body>
+<html>
+  <title>Sadie' Diner</title>
+  <meta charset='UTF-8'>
+  <link href='images/favicon.png' rel='icon' type='image/png'>
+  <link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
 </html>
+<body>
+  <header class='clearfix'>
+    <a href='index.html'>
+      <img alt='logo' class='logo' src='images/logo.png'>
+    </a>
+    <img alt='flying bird' class='left-bird' src='images/left-bird.png'>
+    <img class='music-note' id='music-notes' src='images/music-note.png'>
+    <img alt='singing bird' class='right-bird' src='images/right-bird.png'>
+    <ul class='nav-list'>
+      <li>
+        <span class='icon-book'>
+          <a class='nav-link' href='#'>menu</a>
+        </span>
+      </li>
+      <li>
+        <span class='icon-palette'>
+          <a class='nav-link' href='#'>artshow</a>
+        </span>
+      </li>
+      <li>
+        <span class='icon-heart2'>
+          <a class='nav-link' href='#'>chili-for-charity</a>
+        </span>
+      </li>
+      <li>
+        <span class='icon-phone'>
+          <a class='nav-link' href='#'>contact</a>
+        </span>
+      </li>
+    </ul>
+  </header>
+  <div class='grid-wrapper'>
+    <div class='grid outer-pad'>
+      <div class='col-1-3'>
+        <div class='module'></div>
+      </div>
+      <div class='col-2-3'>
+        <div class='module'></div>
+      </div>
+    </div>
+  </div>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  <script src='js/min/script.min.js' type='text/javascript'></script>
+</body>

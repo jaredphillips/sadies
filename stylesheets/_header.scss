@@ -7,6 +7,9 @@ header {
   margin: .5% auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  -webkit-box-shadow: 0px 0.5px 29px 0px rgba(97,97,97,1);
+  -moz-box-shadow: 0px 0.5px 29px 0px rgba(97,97,97,1);
+  box-shadow: 0px 0.5px 29px 0px rgba(97,97,97,1);
 }
 
 .logo {
@@ -25,12 +28,11 @@ header {
   opacity: .8;
   -webkit-animation: bird-from-left 1.5s linear;
   max-width: 100%;
-}
-
-.left-bird:hover {
-  -ms-transform: rotate(-13deg); /* IE 9 */
-  -webkit-transform: rotate(-13deg); /* Chrome, Safari, Opera */
-  transform: rotate(-13deg);
+  &:hover {
+    -ms-transform: rotate(-13deg); /* IE 9 */
+    -webkit-transform: rotate(-13deg); /* Chrome, Safari, Opera */
+    transform: rotate(-13deg);
+  }
 }
 
 .right-bird {
@@ -42,12 +44,11 @@ header {
   -webkit-animation: bird-from-right 1.9s linear, jiggy 4s ease 2.5s forwards;
   z-index: 50;
   max-width: 100%;
-}
-
-.right-bird:hover {
+  &:hover {
   -ms-transform: rotate(10deg); /* IE 9 */
   -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
   transform: rotate(10deg);
+  } 
 }
 
 .music-note {
@@ -71,22 +72,31 @@ header {
     overflow: hidden;
     border-right: 1px solid #e5e7df;
     padding: 0 10px 0 10px;
-    a {
-      margin-left: 0px;
-      text-decoration: none;
+    span {
+      color: $red;
+      font-size: 24px;
       line-height: 1.6;
-      font-family: 'Grand Hotel', cursive;
-      letter-spacing: 0.06em;
-      color: #d4320b;
-      text-shadow: 1px 1px 1px #bbb;
-      font-size: 29px;
-      transition: .5s;
-    }
-    a:hover {
-      color: #f5623f;
-      transition: .5s;
+      a {
+        margin-left: 0px;
+        text-decoration: none;
+        line-height: 1.6;
+        font-family: 'Grand Hotel', cursive;
+        letter-spacing: 0.06em;
+        color: $red;
+        text-shadow: 1px 1px 1px #bbb;
+        font-size: 29px;
+        transition: .5s;
+      }
+      &:hover {
+        color: #f5623f;
+        transition: .5s;
+      }
     }
   }
+}
+
+.active {
+  border-bottom: 1px solid #f5623f;
 }
 
 .nav-list li:last-of-type {
@@ -94,9 +104,6 @@ header {
   border-right: 0px solid white;
 }
 
-.icons-menu {
-content: "U+e606";
-}
 
 
 
