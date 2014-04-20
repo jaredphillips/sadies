@@ -14,7 +14,6 @@ header {
   top: 0px;
   left: 70px;
   height: 130px;
-  opacity: .8;
   max-width: 100%;
 }
 
@@ -24,7 +23,7 @@ header {
   top: -50px;
   left: -190px;
   opacity: .8;
-  // -webkit-animation: bird-from-left 1.5s linear;
+  -webkit-animation: bird-from-left 1.5s linear;
   max-width: 100%;
 }
 
@@ -40,7 +39,7 @@ header {
   top: -26px;
   left: -80px;
   opacity: .8;
-  // -webkit-animation: bird-from-right 1.9s linear;
+  -webkit-animation: bird-from-right 1.9s linear, jiggy 4s ease 2.5s forwards;
   z-index: 50;
   max-width: 100%;
 }
@@ -57,28 +56,46 @@ header {
   left: -75px;
   opacity: 0;
   max-width: 100%;
-  // -webkit-animation: musical-note 4s ease 3s forwards;
+  -webkit-animation: musical-note 4s ease 3s forwards;
 }
 
 .nav-list {
   list-style-type: none;
   text-align: right;
-  padding-right: 20px;
-  display: inline;
-}
-
-.nav-list {
+  padding-right: 0px;
   display: inline-block;
   float: right;
-}
-
-li {
-  float: left;
-  overflow: hidden;
+  margin-top: 50px;
+  li {
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #e5e7df;
+    padding: 0 10px 0 10px;
+    a {
+      margin-left: 0px;
+      text-decoration: none;
+      line-height: 1.6;
+      font-family: 'Grand Hotel', cursive;
+      letter-spacing: 0.06em;
+      color: #d4320b;
+      text-shadow: 1px 1px 1px #bbb;
+      font-size: 29px;
+      transition: .5s;
+    }
+    a:hover {
+      color: #f5623f;
+      transition: .5s;
+    }
+  }
 }
 
 .nav-list li:last-of-type {
   margin-right: 40px;
+  border-right: 0px solid white;
+}
+
+.icons-menu {
+content: "U+e606";
 }
 
 

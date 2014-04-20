@@ -356,6 +356,63 @@ body {
   padding-right: 20px;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?yej7xt");
+  src: url("../fonts/icomoon.eot?#iefixyej7xt") format("embedded-opentype"), url("../fonts/icomoon.woff?yej7xt") format("woff"), url("../fonts/icomoon.ttf?yej7xt") format("truetype"), url("../fonts/icomoon.svg?yej7xt#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000312}}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000326}}
+.icon-book:before {
+  content: "\e600";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000329}}
+.icon-phone:before {
+  content: "\e601";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000332}}
+.icon-mail:before {
+  content: "\e602";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000335}}
+.icon-feather:before {
+  content: "\e603";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000338}}
+.icon-heart2:before {
+  content: "\e604";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000341}}
+.icon-palette:before {
+  content: "\e605";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000344}}
+.icon-newspaper:before {
+  content: "\e606";
+}
+
 /* Animations */
 @-webkit-keyframes bird-from-left {
   0% {
@@ -431,6 +488,24 @@ body {
   }
 }
 
+@-webkit-keyframes jiggy {
+  0% {
+    -webkit-transform: rotate(20deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
+}
+
 @-webkit-keyframes musical-note {
   0% {
     opacity: 0;
@@ -473,21 +548,21 @@ header {
   top: 0px;
   left: 70px;
   height: 130px;
-  opacity: .8;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000320}}
 .left-bird {
   height: 69px;
   position: relative;
   top: -50px;
   left: -190px;
   opacity: .8;
+  -webkit-animation: bird-from-left 1.5s linear;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000330}}
 .left-bird:hover {
   -ms-transform: rotate(-13deg);
   /* IE 9 */
@@ -496,18 +571,19 @@ header {
   transform: rotate(-13deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000336}}
 .right-bird {
   height: 58px;
   position: relative;
   top: -26px;
   left: -80px;
   opacity: .8;
+  -webkit-animation: bird-from-right 1.9s linear, jiggy 4s ease 2.5s forwards;
   z-index: 50;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000347}}
 .right-bird:hover {
   -ms-transform: rotate(10deg);
   /* IE 9 */
@@ -516,36 +592,57 @@ header {
   transform: rotate(10deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000353}}
 .music-note {
   position: relative;
   top: -30px;
   left: -75px;
   opacity: 0;
   max-width: 100%;
+  -webkit-animation: musical-note 4s ease 3s forwards;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000362}}
 .nav-list {
   list-style-type: none;
   text-align: right;
-  padding-right: 20px;
-  display: inline;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000370}}
-.nav-list {
+  padding-right: 0px;
   display: inline-block;
   float: right;
+  margin-top: 50px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000375}}
-li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000369}}
+.nav-list li {
   float: left;
   overflow: hidden;
+  border-right: 1px solid #e5e7df;
+  padding: 0 10px 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000374}}
+.nav-list li a {
+  margin-left: 0px;
+  text-decoration: none;
+  line-height: 1.6;
+  font-family: 'Grand Hotel', cursive;
+  letter-spacing: 0.06em;
+  color: #d4320b;
+  text-shadow: 1px 1px 1px #bbb;
+  font-size: 29px;
+  transition: .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000385}}
+.nav-list li a:hover {
+  color: #f5623f;
+  transition: .5s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000392}}
 .nav-list li:last-of-type {
   margin-right: 40px;
+  border-right: 0px solid white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000397}}
+.icons-menu {
+  content: "U+e606";
 }
