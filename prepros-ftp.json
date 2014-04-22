@@ -1,0 +1,78 @@
+{
+  "fonts/icomoon.eot": {
+    "size": 2624,
+    "date": "2014-04-21T03:45:09.985Z"
+  },
+  "fonts/icomoon.svg": {
+    "size": 4651,
+    "date": "2014-04-21T03:45:10.469Z"
+  },
+  "fonts/icomoon.ttf": {
+    "size": 2460,
+    "date": "2014-04-21T03:45:10.872Z"
+  },
+  "fonts/icomoon.woff": {
+    "size": 1964,
+    "date": "2014-04-21T03:45:11.273Z"
+  },
+  "images/down_arrow.png": {
+    "size": 458,
+    "date": "2014-04-21T03:45:11.651Z"
+  },
+  "images/fav.png": {
+    "size": 18302,
+    "date": "2014-04-21T03:45:12.294Z"
+  },
+  "images/favicon.png": {
+    "size": 18302,
+    "date": "2014-04-21T03:45:12.937Z"
+  },
+  "images/left-bird.png": {
+    "size": 17915,
+    "date": "2014-04-21T03:45:13.575Z"
+  },
+  "images/logo-master.jpg": {
+    "size": 113738,
+    "date": "2014-04-21T03:45:15.797Z"
+  },
+  "images/logo.png": {
+    "size": 104545,
+    "date": "2014-04-21T03:45:17.459Z"
+  },
+  "images/music-note.png": {
+    "size": 1056,
+    "date": "2014-04-21T03:45:17.860Z"
+  },
+  "images/right-bird.png": {
+    "size": 16494,
+    "date": "2014-04-21T03:45:18.483Z"
+  },
+  "images/style-guide-bg.png": {
+    "size": 131,
+    "date": "2014-04-21T03:45:18.856Z"
+  },
+  "index.html": {
+    "size": 1791,
+    "date": "2014-04-21T03:45:19.648Z"
+  },
+  "js/min/script.min.js": {
+    "size": 132,
+    "date": "2014-04-21T03:45:20.022Z"
+  },
+  "js/script.js": {
+    "size": 155,
+    "date": "2014-04-21T03:45:20.397Z"
+  },
+  "style-guide.html": {
+    "size": 7286,
+    "date": "2014-04-21T03:45:20.923Z"
+  },
+  "stylesheets/mobile.css": {
+    "size": 114,
+    "date": "2014-04-21T03:45:21.301Z"
+  },
+  "stylesheets/style.css": {
+    "size": 19888,
+    "date": "2014-04-21T03:45:21.946Z"
+  }
+}

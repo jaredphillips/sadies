@@ -314,11 +314,6 @@ table {
 }
 
 /* IE7 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_variables\.scss}line{font-family:\0000310}}
-body {
-  background: #9bd8eb;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\000033}}
 .grid {
   width: 98%;
@@ -413,11 +408,28 @@ body {
   content: "\e606";
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000348}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+  font-family: 'Grand Hotel', cursive;
+  letter-spacing: 0.06em;
+  color: #d4320b;
+  text-shadow: .8px .8px .8px #bbb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000356}}
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: #2B2B27;
+}
+
 /* Animations */
 @-webkit-keyframes bird-from-left {
   0% {
-    top: -200px;
-    left: -280px;
+    top: -120px;
+    left: -290px;
   }
 
   50% {
@@ -426,8 +438,8 @@ body {
   }
 
   100% {
-    top: -30px;
-    left: -170px;
+    top: -50px;
+    left: -190px;
   }
 }
 
@@ -449,60 +461,42 @@ body {
 
   30% {
     top: -70px;
-    left: 202px;
+    left: 102px;
   }
 
   40% {
     top: -50px;
-    left: 166px;
+    left: 66px;
   }
 
   50% {
     top: -60px;
-    left: 130px;
+    left: 30px;
   }
 
   60% {
     top: -40px;
-    left: 94px;
+    left: -10px;
   }
 
   70% {
     top: -25px;
-    left: 58px;
+    left: -48px;
   }
 
   80% {
     top: -10px;
-    left: 22px;
+    left: -60px;
   }
 
   90% {
-    top: -4px;
-    left: -14px;
+    top: -29px;
+    left: -70px;
   }
 
   100% {
-    top: -7px;
-    left: -50px;
-  }
-}
-
-@-webkit-keyframes jiggy {
-  0% {
-    -webkit-transform: rotate(20deg);
-  }
-
-  50% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  75% {
-    -webkit-transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
+    top: -26px;
+    left: -80px;
   }
 }
 
@@ -534,27 +528,24 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\000033}}
 header {
-  background: #f9f5f2;
-  height: 150px;
-  width: 99%;
-  margin: .5% auto;
+  background: url(../images/nav-background.jpg);
+  background-repeat: repeat-x;
+  height: 130px;
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  -webkit-box-shadow: 0px 0.5px 29px 0px #616161;
-  -moz-box-shadow: 0px 0.5px 29px 0px #616161;
-  box-shadow: 0px 0.5px 29px 0px #616161;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000313}}
 .logo {
   position: relative;
-  top: 0px;
-  left: 70px;
-  height: 130px;
+  top: 10px;
+  left: 500px;
+  height: 190px;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000321}}
 .left-bird {
   height: 69px;
   position: relative;
@@ -564,7 +555,7 @@ header {
   -webkit-animation: bird-from-left 1.5s linear;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000329}}
 .left-bird:hover {
   -ms-transform: rotate(-13deg);
   /* IE 9 */
@@ -573,18 +564,18 @@ header {
   transform: rotate(-13deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000336}}
 .right-bird {
   height: 58px;
   position: relative;
   top: -26px;
   left: -80px;
   opacity: .8;
-  -webkit-animation: bird-from-right 1.9s linear, jiggy 4s ease 2.5s forwards;
+  -webkit-animation: bird-from-right 1.9s linear;
   z-index: 50;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000345}}
 .right-bird:hover {
   -ms-transform: rotate(10deg);
   /* IE 9 */
@@ -593,7 +584,7 @@ header {
   transform: rotate(10deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000352}}
 .music-note {
   position: relative;
   top: -30px;
@@ -603,52 +594,52 @@ header {
   -webkit-animation: musical-note 4s ease 3s forwards;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\000031}}
+body {
+  background: url(../images/fabric.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\000035}}
+.wrapper {
+  width: 90%;
+  background: #f9f5f2;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000312}}
 .nav-list {
   list-style-type: none;
-  text-align: right;
-  padding-right: 0px;
-  display: inline-block;
-  float: right;
-  margin-top: 50px;
+  margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000315}}
 .nav-list li {
+  display: inline-block;
   float: left;
-  overflow: hidden;
-  border-right: 1px solid #e5e7df;
-  padding: 0 10px 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000375}}
-.nav-list li span {
-  color: #d4320b;
-  font-size: 24px;
-  line-height: 1.6;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000318}}
+.nav-list li .address-card {
+  width: 300px;
+  font-size: .9em;
+  text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000379}}
-.nav-list li span a {
-  margin-left: 0px;
-  text-decoration: none;
-  line-height: 1.6;
-  font-family: 'Grand Hotel', cursive;
-  letter-spacing: 0.06em;
-  color: #d4320b;
-  text-shadow: 1px 1px 1px #bbb;
-  font-size: 29px;
-  transition: .5s;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000322}}
+.nav-list li .address-card .intersection {
+  border-bottom: 1px solid #2b2b27;
+  margin-bottom: 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000390}}
-.nav-list li span:hover {
-  color: #f5623f;
-  transition: .5s;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000326}}
+.nav-list li .address-card p {
+  margin: -1px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000346}}
 .active {
   border-bottom: 1px solid #f5623f;
+  color: #f5623f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000351}}
 .nav-list li:last-of-type {
   margin-right: 40px;
   border-right: 0px solid white;

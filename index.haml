@@ -1,6 +1,6 @@
 !!! 5
 %html
-	%title Sadie' Diner
+	%title Sadie's Diner
 	%meta{ charset: "UTF-8" }
 	%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
 	%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
@@ -9,30 +9,36 @@
 	%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: "text/css" }
 %body
 	%header.clearfix
-		%a{ href: "index.html" }
-			%img.logo{ src: "images/logo.png", alt: "logo" }
-		%img.left-bird{ src: "images/left-bird.png", alt: "flying bird" }
-		%img.music-note#music-notes{ src: "images/music-note.png" }
-		%img.right-bird{ src: "images/right-bird.png", alt: "singing bird" }
-		%ul.nav-list
-			%li
-				%span.icon-book
-					%a.nav-link{ href: "#" } menu
-			%li
-				%span.icon-palette
-					%a.nav-link{ href: "#" } artshow
-			%li
-				%span.icon-heart2
-					%a.nav-link{ href: "#" } chili-for-charity
-			%li
-				%span.icon-phone
-					%a.nav-link{ href: "#" } contact
-	.grid-wrapper
+		%img.logo{ src: "images/logo.png", alt: "logo" }
+		/ %img.left-bird{ src: "images/left-bird.png", alt: "flying bird" }
+		/ %img.music-note#music-notes{ src: "images/music-note.png" }
+		/ %img.right-bird{ src: "images/right-bird.png", alt: "singing bird" }
+	.wrapper
 		.grid.outer-pad
+			%ul.nav-list
+				%li
+					.address-card
+						%p.intersection Portand & Adelaide
+						.address
+							%p.street-address 504 Adelaide Street West
+							%p.city Toronto, Ontario
+							%p.postal-code M5V 1T5
+						%p.tel 1 416 777-2343
+						%p.email{ mailto: "contact@sadiesdiner.com" } contact@sadiesdiner.com
+				%li
+					%a.nav-link{ href: "#" } menu
+				%li
+					%a.nav-link{ href: "#" } artshow
+				%li
+					%a.nav-link{ href: "#" } chili-for-charity
+				%li
+					%a.nav-link{ href: "#" } contact
+			.col-1-3
+				.module 
 			.col-1-3
 				.module
-			.col-2-3
-				.module
+			.col-1-3
+
 
 	%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }

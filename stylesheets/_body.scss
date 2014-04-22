@@ -1,0 +1,54 @@
+body {
+	background: url(../images/fabric.png)
+}
+
+.wrapper {
+	width: 90%;
+	background: $off-white;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	list-style-type: none;
+	margin: 0 auto;
+	li {
+		display: inline-block;
+		float: left;
+		.address-card {
+			width: 300px;
+			font-size: .9em;
+			text-align: center;
+			.intersection {
+				border-bottom: 1px solid $off-black;
+				margin-bottom: 9px;
+			}
+			p {
+			margin: -1px 0;
+			}
+		}
+	}
+}
+
+
+// %ul.nav-list
+// 	%li
+// 		.address-card
+// 			%p.intersection Portand & Adelaide
+// 			.address
+// 				%p.street-address 504 Adelaide Street West
+// 				%p.city Toronto, Ontario
+// 				%p.postal-code M5V 1T5
+// 			%p.tel 1 416 777-2343
+// 			%p.email{ mailto: "contact@sadiesdiner.com" } contact@sadiesdiner.com
+
+
+.active {
+  border-bottom: 1px solid #f5623f;
+  color: #f5623f;
+}
+
+.nav-list li:last-of-type {
+  margin-right: 40px;
+  border-right: 0px solid white;
+}
