@@ -10,20 +10,16 @@
 %body
 	%header
 	%div.wrapper
-		%ul.clearfix
-			%li.address-list
-				%p.street Portland & Adelaide
-				%p.address 504 Adelaide Street West
-				%p.city	Toronto, ON M5V 1T5
-				%p.phone (416) 777-2343
-				%p.email
-					%a.email{ href: "mailto:info@sadiesdiner.com" } Email Us
-			%li
-				%img.logo{ src: "./images/logo.png" }
-			%li.hours-list
-				%p.hours Our Hours
-				%p.hours1 Monday to Friday - 7:30am-10pm
-				%p.hours2 Weekends - 9am-10pm
+		.div.nav-wrapper
+			%ul
+				%li Address
+				%li logo
+				%li Our Hours
+		.div.sub-nav-wrapper
+			%ul
+				%li Chili for Charity
+				%li Artshow
+				%li Contact
 
 	%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }

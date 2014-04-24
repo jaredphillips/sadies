@@ -437,70 +437,37 @@ body header {
 }
 
 .wrapper {
+  position: fixed;
   height: 1000px;
   background: #f9f5f2;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 5% 0 5%;
 }
-.wrapper ul {
-  display: inline-block;
-  width: 203%;
+
+.nav-wrapper {
+  background-color: #d4320b;
+  height: 100px;
+  width: 90%;
   margin: 0 auto;
+  margin-top: 70px;
 }
-.wrapper ul li {
-  text-align: center;
-  width: 15%;
+.nav-wrapper ul li {
   list-style: none;
-  padding-top: 40px;
-  display: inline;
   float: left;
+  width: 33.333%;
+  text-align: center;
 }
 
-p.street {
-  line-height: 1.4;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #2b2b27;
+.sub-nav-wrapper {
+  background-color: #a7e1f1;
+  height: 40px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 70px;
 }
-
-p.address {
-  line-height: 0;
-}
-
-p.city {
-  line-height: .5;
-}
-
-p.phone {
-  line-height: .5;
-}
-
-p.email {
-  border-top: 1px solid #2b2b27;
-  line-height: 0;
-  padding-top: 23px;
-}
-
-a.email {
-  text-decoration: none;
-}
-
-p.hours {
-  padding-bottom: 6px;
-  border-bottom: 1px solid #2b2b27;
-}
-
-p.hours2 {
-  border-bottom: 1px solid #2b2b27;
-  padding-bottom: 20px;
-}
-
-p.hours1, p.hours2 {
-  line-height: .5;
-}
-
-.logo {
-  position: relative;
-  top: -80px;
-  right: 0;
-  height: 180px;
+.sub-nav-wrapper ul li {
+  list-style: none;
+  float: left;
+  width: 33.333%;
+  text-align: center;
 }
