@@ -9,7 +9,6 @@
 // Main nav
 
 .nav-wrapper {
-	background-color: $red;
 	height: 100px;
 	width: 90%;
 	margin: 0 auto;
@@ -20,16 +19,33 @@
 			float: left;
 			width: 33.333%;
 			text-align: center;
+			h2.intersection {
+				border-bottom: 1px solid $off-black;
+				font-size: 16px;
+				padding-bottom: 9px;
+			}
+			p.address {
+				margin: -10px 0 0 0;	
+			}
+			p.city {
+				margin: -5px 0 0 0;				
+			}
+			p.phone {
+				margin: -5px 0 0 0;
+				border-bottom: 1px solid $off-black;
+			}
 		}
 	}
 }
+
+
+
 
 .sub-nav-wrapper {
 	background-color: $lighter-blue;
 	height: 40px;
 	width: 60%;
 	margin: 0 auto;
-	margin-top: 70px;
 	ul {
 		li {
 			list-style: none;

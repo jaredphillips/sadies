@@ -310,15 +310,7 @@ table {
   content: "\e606";
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.6;
-  font-family: 'Grand Hotel', cursive;
-  letter-spacing: 0.06em;
-  color: #d4320b;
-  text-shadow: .8px .8px .8px #bbb;
-}
-
-p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse, h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   line-height: 1.4;
   letter-spacing: 0.05em;
@@ -445,7 +437,6 @@ body header {
 }
 
 .nav-wrapper {
-  background-color: #d4320b;
   height: 100px;
   width: 90%;
   margin: 0 auto;
@@ -457,17 +448,49 @@ body header {
   width: 33.333%;
   text-align: center;
 }
+.nav-wrapper ul li h2.intersection {
+  border-bottom: 1px solid #2b2b27;
+  font-size: 16px;
+  padding-bottom: 9px;
+}
+.nav-wrapper ul li p.address {
+  margin: -10px 0 0 0;
+}
+.nav-wrapper ul li p.city {
+  margin: -5px 0 0 0;
+}
+.nav-wrapper ul li p.phone {
+  margin: -5px 0 0 0;
+  border-bottom: 1px solid #2b2b27;
+}
 
 .sub-nav-wrapper {
   background-color: #a7e1f1;
   height: 40px;
   width: 60%;
   margin: 0 auto;
-  margin-top: 70px;
 }
 .sub-nav-wrapper ul li {
   list-style: none;
   float: left;
   width: 33.333%;
   text-align: center;
+}
+
+.button-small {
+  border-radius: 5px;
+  border: 1px solid #A7E1F1;
+  background: white;
+  text-decoration: none;
+  font-size: 19px;
+  transition: .5s;
+  position: relative;
+  top: 9px;
+  padding: 5px;
+}
+
+.button-small:hover {
+  background: #A7E1F1;
+  color: white;
+  transition: .5s;
 }

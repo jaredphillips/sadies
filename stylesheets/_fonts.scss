@@ -45,15 +45,15 @@
 	content: "\e606";
 }
 
-h1,	h2, h3, h4, h5, h6 {
-	line-height: 1.6;
-	font-family: 'Grand Hotel', cursive;
-	letter-spacing: 0.06em;
-	color: #d4320b;
-	text-shadow: .8px .8px .8px #bbb;
-}
+//  {
+// 	line-height: 1.6;
+// 	font-family: 'Grand Hotel', cursive;
+// 	letter-spacing: 0.06em;
+// 	color: #d4320b;
+// 	text-shadow: .8px .8px .8px #bbb;
+// }
 
-p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse, h1,	h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.4;
 	letter-spacing: 0.05em;
