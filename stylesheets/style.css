@@ -1,151 +1,124 @@
 /*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 audio:not([controls]) {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 [hidden] {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 html, button, input, select, textarea {
   font-family: sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 a:hover, a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h2 {
   font-size: 1.5em;
   margin: .83em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h5 {
   font-size: .83em;
   margin: 1.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 h6 {
   font-size: .75em;
   margin: 2.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 b, strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 blockquote {
   margin: 1em 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 p, pre {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 pre, code, kbd, samp {
   font-family: monospace,serif;
   _font-family: 'courier new',monospace;
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 q {
   quotes: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 q:before, q:after {
   content: '';
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 small {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -153,66 +126,54 @@ sub, sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 dl, menu, ol, ul {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 dd {
   margin: 0 0 0 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 menu, ol, ul {
   padding: 0 0 0 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 form {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: .35em .625em .75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 legend {
   border: 0;
   padding: 0;
@@ -220,7 +181,6 @@ legend {
   *margin-left: -7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
@@ -228,24 +188,20 @@ button, input, select, textarea {
   *vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 button, input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
   *overflow: visible;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
@@ -253,7 +209,6 @@ input[type="checkbox"], input[type="radio"] {
   *width: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -261,30 +216,25 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_normalize\.scss}line{font-family:\000031}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_border-box\.scss}line{font-family:\000031}}
 * {
   -moz-ring-sizing: border-ring;
   -webkit-ring-sizing: border-ring;
@@ -292,7 +242,6 @@ table {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_clearfix\.scss}line{font-family:\000031}}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -302,55 +251,16 @@ table {
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_clearfix\.scss}line{font-family:\000039}}
 * html .clearfix {
   zoom: 1;
 }
 
 /* IE6 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_clearfix\.scss}line{font-family:\0000310}}
 *:first-child + html .clearfix {
   zoom: 1;
 }
 
 /* IE7 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\000033}}
-.grid {
-  width: 98%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\000037}}
-[class*='col-'] {
-  float: left;
-  padding-right: 20px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000310}}
-.grid [class*='col-']:last-of-type {
-  padding-right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000313}}
-[class*='col-'] .col-1-3 {
-  width: 32.666%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000316}}
-[class*='col-'] .col-2-3 {
-  width: 65.333%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000321}}
-.module {
-  padding: 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000325}}
-.outer-pad {
-  padding: 20px 0 20px 20px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_grid\.scss}line{font-family:\0000327}}
-.outer-pad [class*='col-']:last-of-type {
-  padding-right: 20px;
-}
-
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?yej7xt");
@@ -359,7 +269,6 @@ table {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000312}}
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -373,42 +282,34 @@ table {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000326}}
 .icon-book:before {
   content: "\e600";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000329}}
 .icon-phone:before {
   content: "\e601";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000332}}
 .icon-mail:before {
   content: "\e602";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000335}}
 .icon-feather:before {
   content: "\e603";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000338}}
 .icon-heart2:before {
   content: "\e604";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000341}}
 .icon-palette:before {
   content: "\e605";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000344}}
 .icon-newspaper:before {
   content: "\e606";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000348}}
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
   font-family: 'Grand Hotel', cursive;
@@ -417,7 +318,6 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: .8px .8px .8px #bbb;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_fonts\.scss}line{font-family:\0000356}}
 p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
   font-family: 'Lato', sans-serif;
   line-height: 1.4;
@@ -526,121 +426,11 @@ p, li, blockquote, label, select, input, .button, .button-big, .button-small, .b
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\000033}}
-header {
+body {
+  background: url(../images/greyfloral.png);
+}
+body header {
   background: url(../images/nav-background.jpg);
   background-repeat: repeat-x;
-  height: 130px;
-  width: 100%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000313}}
-.logo {
-  position: relative;
-  top: 10px;
-  left: 500px;
-  height: 190px;
-  max-width: 100%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000321}}
-.left-bird {
-  height: 69px;
-  position: relative;
-  top: -50px;
-  left: -190px;
-  opacity: .8;
-  -webkit-animation: bird-from-left 1.5s linear;
-  max-width: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000329}}
-.left-bird:hover {
-  -ms-transform: rotate(-13deg);
-  /* IE 9 */
-  -webkit-transform: rotate(-13deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(-13deg);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000336}}
-.right-bird {
-  height: 58px;
-  position: relative;
-  top: -26px;
-  left: -80px;
-  opacity: .8;
-  -webkit-animation: bird-from-right 1.9s linear;
-  z-index: 50;
-  max-width: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000345}}
-.right-bird:hover {
-  -ms-transform: rotate(10deg);
-  /* IE 9 */
-  -webkit-transform: rotate(10deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(10deg);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_header\.scss}line{font-family:\0000352}}
-.music-note {
-  position: relative;
-  top: -30px;
-  left: -75px;
-  opacity: 0;
-  max-width: 100%;
-  -webkit-animation: musical-note 4s ease 3s forwards;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\000031}}
-body {
-  background: url(../images/fabric.png);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\000035}}
-.wrapper {
-  width: 90%;
-  background: #f9f5f2;
-  height: 1000px;
-  margin: 0 auto;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000312}}
-.nav-list {
-  list-style-type: none;
-  margin: 0 auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000315}}
-.nav-list li {
-  display: inline-block;
-  float: left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000318}}
-.nav-list li .address-card {
-  width: 300px;
-  font-size: .9em;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000322}}
-.nav-list li .address-card .intersection {
-  border-bottom: 1px solid #2b2b27;
-  margin-bottom: 9px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000326}}
-.nav-list li .address-card p {
-  margin: -1px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000346}}
-.active {
-  border-bottom: 1px solid #f5623f;
-  color: #f5623f;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_body\.scss}line{font-family:\0000351}}
-.nav-list li:last-of-type {
-  margin-right: 40px;
-  border-right: 0px solid white;
+  height: 100px;
 }
