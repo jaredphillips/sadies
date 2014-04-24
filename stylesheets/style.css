@@ -433,4 +433,74 @@ body header {
   background: url(../images/nav-background.jpg);
   background-repeat: repeat-x;
   height: 100px;
+  display: block;
+}
+
+.wrapper {
+  height: 1000px;
+  background: #f9f5f2;
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper ul {
+  display: inline-block;
+  width: 203%;
+  margin: 0 auto;
+}
+.wrapper ul li {
+  text-align: center;
+  width: 15%;
+  list-style: none;
+  padding-top: 40px;
+  display: inline;
+  float: left;
+}
+
+p.street {
+  line-height: 1.4;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2b2b27;
+}
+
+p.address {
+  line-height: 0;
+}
+
+p.city {
+  line-height: .5;
+}
+
+p.phone {
+  line-height: .5;
+}
+
+p.email {
+  border-top: 1px solid #2b2b27;
+  line-height: 0;
+  padding-top: 23px;
+}
+
+a.email {
+  text-decoration: none;
+}
+
+p.hours {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2b2b27;
+}
+
+p.hours2 {
+  border-bottom: 1px solid #2b2b27;
+  padding-bottom: 20px;
+}
+
+p.hours1, p.hours2 {
+  line-height: .5;
+}
+
+.logo {
+  position: relative;
+  top: -80px;
+  right: 0;
+  height: 180px;
 }
