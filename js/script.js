@@ -4,4 +4,8 @@
     return $(this).addClass("active");
   });
 
+  $('.slider-class').slick({
+    name: value
+  });
+
 }).call(this);

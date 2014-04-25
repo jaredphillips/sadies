@@ -1,0 +1,16 @@
+.main-callout {
+	background: $red;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	ul {
+		list-style-type: none;
+		li {
+			float: left;
+			width: 28%;
+			text-align: center;
+			margin: 0 2% 0 2%;
+			background: white;
+		}
+	}
+}

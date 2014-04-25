@@ -5,45 +5,33 @@
 	%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
 	%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
 	%meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
-	%link{ href: "http://fonts.googleapis.com/css?family=Lato", rel: "stylesheet", type: "text/css" }
-	%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: "text/css" }
 %body
 	%header
-	%div.wrapper
-		.div.nav-wrapper
+	.wrapper.clearfix
+		.main-callout.clearfix
 			%ul
-				%li.address-list
-					%h2.intersection Portland & Adelaide
-					%p.address 504 Adelaide Street West
-					%p.city Toronto, ON M5V 1T5
-					%p.phone (416) 777-2343 
-					%a.email.button-small{ href: "mailto:info@sadiesdiner.com" } Email Us
-				%li
-					%img.logo{ src: "./images/logo.png" }
-				%li
-					%h2 Our hours
-					%p.hours1 Monday to Friday 7:30am to 10pm
-					%p.hours2 Weekends 9am to 10pm
-		.div.sub-nav-wrapper
+				%li Location
+				%li Logo
+				%li Hours
+		.sub-callout.clearfix
 			%ul
-				%li Chili for Charity
+				%li About
+				%li Chili
 				%li Artshow
+				%li Menu
 				%li Contact
-
+		.slider
+			.food
+				%h2 Our Menu
+				%img{ src: "images/1food.jpg" }
+	.top-footer
+		.text-container
+			%h3 Here at Sadie's Diner
+			%ul
+				%li Some crazy stuff goes here.
+				%li Even more crazy stuff goes here.
+				%li Maybe a contact button or something here.
+				%li Some more
+	%footer			
 	%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }
-
-	%ul.clearfix.top-nav
-/ %li.address-list
-/ %p.street Portland & Adelaide
-/ %p.address 504 Adelaide Street West
-/ %p.city	Toronto, ON M5V 1T5
-/ %p.phone (416) 777-2343
-/ %p.email
-/ %a.email{ href: "mailto:info@sadiesdiner.com" } Email Us
-/ %li
-/ %img.logo{ src: "./images/logo.png" }
-/ %li.hours-list
-/ %p.hours Our Hours
-/ %p.hours1 Monday to Friday - 7:30am-10pm
-/ %p.hours2 Weekends - 9am-10pm
