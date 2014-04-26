@@ -1,14 +1,26 @@
 .main-callout {
 	width: 90%;
-	height: 100%;
 	margin: 0 auto;
 	ul {
 		list-style-type: none;
 		li {
+			height: 160px;
 			float: left;
 			width: 28%;
 			text-align: center;
 			margin: 0 2% 0 2%;
+			h3 {
+				font-size: 30px;
+				letter-spacing: 1.9px;
+				font-family: 'Grand Hotel', 'cursive';
+				color: $red;
+			}
+			p {
+				font-family: 'Lato', 'sans-serif';
+				line-height: 1.555;
+				font-size: 18px;
+				font-weight: 300;
+			}
 		}
 	}
 }
@@ -32,13 +44,38 @@
 	border-top: 2px solid $darker-blue;
 }
 
+.left-bird {
+	position: relative;
+	top: -130px;
+	left: -150px;
+	-webkit-animation: bird-from-left 3s linear;
+}
+
 .logo {
 	position: relative;
-	top: -110px;
+	top: -210px;
 	left: 0;
 	height: 190px;
 	width: 280px;
 	max-width: 100%;
+}
+
+.music-note {
+	position: relative;
+	top: -362px;
+	left: 143px;
+	height: 37px;
+	opacity: 0;
+	-webkit-animation: musical-note 5s;
+	animation-delay:3.4s;
+	-webkit-animation-delay:3.4s;
+}
+
+.right-bird {
+	position: relative;
+	top: -347px;
+	left: 135px;
+	-webkit-animation: bird-from-right 3.4s linear;
 }
 
 .email {
