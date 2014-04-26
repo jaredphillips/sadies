@@ -1,0 +1,495 @@
+{
+  "id": "8b3c5ce5",
+  "cfgVersion": 1,
+  "name": "sadies",
+  "files": {
+    "ddd7cd28": {
+      "id": "ddd7cd28",
+      "pid": "8b3c5ce5",
+      "name": "slick.scss",
+      "input": "slick/slick.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "842a0b3e": {
+      "id": "842a0b3e",
+      "pid": "8b3c5ce5",
+      "name": "mobile.scss",
+      "input": "stylesheets/mobile.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "a588af7f": {
+      "id": "a588af7f",
+      "pid": "8b3c5ce5",
+      "name": "style.scss",
+      "input": "stylesheets/style.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "3a67f20e": {
+      "id": "3a67f20e",
+      "pid": "8b3c5ce5",
+      "name": "index.haml",
+      "input": "index.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": false
+      }
+    },
+    "556fb496": {
+      "id": "556fb496",
+      "pid": "8b3c5ce5",
+      "name": "script.coffee",
+      "input": "js/script.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": true,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "a0233e7c": {
+      "id": "a0233e7c",
+      "pid": "8b3c5ce5",
+      "name": "script.js",
+      "input": "js/script.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e5f1d497": {
+      "id": "e5f1d497",
+      "pid": "8b3c5ce5",
+      "name": "slick.js",
+      "input": "slick/slick.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    }
+  },
+  "imports": {
+    "efa13c10": {
+      "id": "efa13c10",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_normalize.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "b832a42b": {
+      "id": "b832a42b",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_border-box.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "564b7f31": {
+      "id": "564b7f31",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_clearfix.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "b8a375a1": {
+      "id": "b8a375a1",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_header.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "680db73a": {
+      "id": "680db73a",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_animations.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "e165123d": {
+      "id": "e165123d",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_wrapper.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "95ec5183": {
+      "id": "95ec5183",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_main-callout.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "6dc7f8e7": {
+      "id": "6dc7f8e7",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_sub-callout.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "fe8c0c93": {
+      "id": "fe8c0c93",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_slider.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "79c64a48": {
+      "id": "79c64a48",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_top-footer.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "93115d96": {
+      "id": "93115d96",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_footer.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "aaf225ab": {
+      "id": "aaf225ab",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_variables-misc.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    }
+  },
+  "images": {
+    "829a76c6": {
+      "id": "829a76c6",
+      "pid": "8b3c5ce5",
+      "path": "images/1food.jpg",
+      "size": 62936,
+      "name": "1food.jpg",
+      "type": "Jpg",
+      "initialSize": 64013,
+      "status": "OPTIMIZED"
+    },
+    "fd3c1717": {
+      "id": "fd3c1717",
+      "pid": "8b3c5ce5",
+      "path": "images/2food.jpg",
+      "size": 67728,
+      "name": "2food.jpg",
+      "type": "Jpg",
+      "initialSize": 68967,
+      "status": "OPTIMIZED"
+    },
+    "a3914ef5": {
+      "id": "a3914ef5",
+      "pid": "8b3c5ce5",
+      "path": "images/3food.jpg",
+      "size": 61124,
+      "name": "3food.jpg",
+      "type": "Jpg",
+      "initialSize": 62673,
+      "status": "OPTIMIZED"
+    },
+    "ac081b1f": {
+      "id": "ac081b1f",
+      "pid": "8b3c5ce5",
+      "path": "images/4food.jpg",
+      "size": 48639,
+      "name": "4food.jpg",
+      "type": "Jpg",
+      "initialSize": 49521,
+      "status": "OPTIMIZED"
+    },
+    "65849aef": {
+      "id": "65849aef",
+      "pid": "8b3c5ce5",
+      "path": "images/5food.jpg",
+      "size": 65267,
+      "name": "5food.jpg",
+      "type": "Jpg",
+      "initialSize": 66513,
+      "status": "OPTIMIZED"
+    },
+    "a3a22116": {
+      "id": "a3a22116",
+      "pid": "8b3c5ce5",
+      "path": "images/down_arrow.png",
+      "size": 458,
+      "name": "down_arrow.png",
+      "type": "Png",
+      "initialSize": 458,
+      "status": "OPTIMIZED"
+    },
+    "94c9bebc": {
+      "id": "94c9bebc",
+      "pid": "8b3c5ce5",
+      "path": "images/fabric.png",
+      "size": 10211,
+      "name": "fabric.png",
+      "type": "Png",
+      "initialSize": 10241,
+      "status": "OPTIMIZED"
+    },
+    "66c8ff3f": {
+      "id": "66c8ff3f",
+      "pid": "8b3c5ce5",
+      "path": "images/fav.png",
+      "size": 18302,
+      "name": "fav.png",
+      "type": "Png",
+      "initialSize": 18302,
+      "status": "OPTIMIZED"
+    },
+    "42b77035": {
+      "id": "42b77035",
+      "pid": "8b3c5ce5",
+      "path": "images/favicon.png",
+      "size": 18302,
+      "name": "favicon.png",
+      "type": "Png",
+      "initialSize": 18302,
+      "status": "OPTIMIZED"
+    },
+    "15e10cac": {
+      "id": "15e10cac",
+      "pid": "8b3c5ce5",
+      "path": "images/floral.png",
+      "size": 6162,
+      "name": "floral.png",
+      "type": "Png",
+      "initialSize": 6162,
+      "status": "OPTIMIZED"
+    },
+    "f5486301": {
+      "id": "f5486301",
+      "pid": "8b3c5ce5",
+      "path": "images/food-five.jpg",
+      "size": 119647,
+      "name": "food-five.jpg",
+      "type": "Jpg",
+      "initialSize": 132244,
+      "status": "OPTIMIZED"
+    },
+    "a916f016": {
+      "id": "a916f016",
+      "pid": "8b3c5ce5",
+      "path": "images/food-four.jpg",
+      "size": 191752,
+      "name": "food-four.jpg",
+      "type": "Jpg",
+      "initialSize": 216364,
+      "status": "OPTIMIZED"
+    },
+    "f8e936be": {
+      "id": "f8e936be",
+      "pid": "8b3c5ce5",
+      "path": "images/food-one.jpg",
+      "size": 196862,
+      "name": "food-one.jpg",
+      "type": "Jpg",
+      "initialSize": 204232,
+      "status": "OPTIMIZED"
+    },
+    "8ba51b50": {
+      "id": "8ba51b50",
+      "pid": "8b3c5ce5",
+      "path": "images/food-two.jpg",
+      "size": 119647,
+      "name": "food-two.jpg",
+      "type": "Jpg",
+      "initialSize": 132244,
+      "status": "OPTIMIZED"
+    },
+    "304fcb78": {
+      "id": "304fcb78",
+      "pid": "8b3c5ce5",
+      "path": "images/left-bird.png",
+      "size": 18171,
+      "name": "left-bird.png",
+      "type": "Png",
+      "initialSize": 17915,
+      "status": "OPTIMIZED"
+    },
+    "54cb5297": {
+      "id": "54cb5297",
+      "pid": "8b3c5ce5",
+      "path": "images/light_grey.png",
+      "size": 448,
+      "name": "light_grey.png",
+      "type": "Png",
+      "initialSize": 448,
+      "status": "OPTIMIZED"
+    },
+    "5737dfaa": {
+      "id": "5737dfaa",
+      "pid": "8b3c5ce5",
+      "path": "images/logo-master.jpg",
+      "size": 113738,
+      "name": "logo-master.jpg",
+      "type": "Jpg",
+      "initialSize": 113738,
+      "status": "OPTIMIZED"
+    },
+    "de676728": {
+      "id": "de676728",
+      "pid": "8b3c5ce5",
+      "path": "images/logo.png",
+      "size": 97232,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 97232,
+      "status": "OPTIMIZED"
+    },
+    "9ed6658d": {
+      "id": "9ed6658d",
+      "pid": "8b3c5ce5",
+      "path": "images/music-note.png",
+      "size": 1056,
+      "name": "music-note.png",
+      "type": "Png",
+      "initialSize": 1056,
+      "status": "OPTIMIZED"
+    },
+    "6a7cb41f": {
+      "id": "6a7cb41f",
+      "pid": "8b3c5ce5",
+      "path": "images/paper_fibers.png",
+      "size": 74094,
+      "name": "paper_fibers.png",
+      "type": "Png",
+      "initialSize": 74094,
+      "status": "OPTIMIZED"
+    },
+    "5f7fecd8": {
+      "id": "5f7fecd8",
+      "pid": "8b3c5ce5",
+      "path": "images/right-bird.png",
+      "size": 16944,
+      "name": "right-bird.png",
+      "type": "Png",
+      "initialSize": 16494,
+      "status": "OPTIMIZED"
+    },
+    "f1bfa1d5": {
+      "id": "f1bfa1d5",
+      "pid": "8b3c5ce5",
+      "path": "images/store-front.jpg",
+      "size": 397086,
+      "name": "store-front.jpg",
+      "type": "Jpg",
+      "initialSize": 397037,
+      "status": "OPTIMIZED"
+    },
+    "6b9f369c": {
+      "id": "6b9f369c",
+      "pid": "8b3c5ce5",
+      "path": "images/style-guide-bg.png",
+      "size": 131,
+      "name": "style-guide-bg.png",
+      "type": "Png",
+      "initialSize": 131,
+      "status": "OPTIMIZED"
+    },
+    "c20a33b4": {
+      "id": "c20a33b4",
+      "pid": "8b3c5ce5",
+      "path": "images/top-background.jpg",
+      "size": 1227,
+      "name": "top-background.jpg",
+      "type": "Jpg",
+      "initialSize": 1994,
+      "status": "OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": true,
+    "customServerUrl": "0.0.0.0:9999",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "ftp.itsafieldday.com",
+    "ftpPort": "21",
+    "ftpRemotePath": "sadiesdiner",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

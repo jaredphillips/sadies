@@ -1,78 +1,178 @@
--{
+{
   "fonts/icomoon.eot": {
     "size": 2624,
-    "date": "2014-04-21T03:45:09.985Z"
+    "date": "2014-04-26T19:53:27.533Z"
   },
   "fonts/icomoon.svg": {
     "size": 4651,
-    "date": "2014-04-21T03:45:10.469Z"
+    "date": "2014-04-26T19:53:27.949Z"
   },
   "fonts/icomoon.ttf": {
     "size": 2460,
-    "date": "2014-04-21T03:45:10.872Z"
+    "date": "2014-04-26T19:53:28.292Z"
   },
   "fonts/icomoon.woff": {
     "size": 1964,
-    "date": "2014-04-21T03:45:11.273Z"
+    "date": "2014-04-26T19:53:28.638Z"
+  },
+  "images/1food.jpg": {
+    "size": 62936,
+    "date": "2014-04-26T22:24:19.194Z"
+  },
+  "images/2food.jpg": {
+    "size": 67728,
+    "date": "2014-04-26T22:24:20.355Z"
+  },
+  "images/3food.jpg": {
+    "size": 61124,
+    "date": "2014-04-26T22:24:21.424Z"
+  },
+  "images/4food.jpg": {
+    "size": 48639,
+    "date": "2014-04-26T22:24:22.350Z"
+  },
+  "images/5food.jpg": {
+    "size": 65267,
+    "date": "2014-04-26T22:24:23.478Z"
   },
   "images/down_arrow.png": {
     "size": 458,
-    "date": "2014-04-21T03:45:11.651Z"
+    "date": "2014-04-26T19:53:34.421Z"
+  },
+  "images/fabric.png": {
+    "size": 10211,
+    "date": "2014-04-26T22:24:23.967Z"
   },
   "images/fav.png": {
     "size": 18302,
-    "date": "2014-04-21T03:45:12.294Z"
+    "date": "2014-04-26T19:53:35.464Z"
   },
   "images/favicon.png": {
     "size": 18302,
-    "date": "2014-04-21T03:45:12.937Z"
+    "date": "2014-04-26T19:53:36.034Z"
+  },
+  "images/floral.png": {
+    "size": 6162,
+    "date": "2014-04-26T19:53:36.479Z"
+  },
+  "images/food-five.jpg": {
+    "size": 119647,
+    "date": "2014-04-26T22:24:25.747Z"
+  },
+  "images/food-four.jpg": {
+    "size": 191752,
+    "date": "2014-04-26T22:24:28.786Z"
+  },
+  "images/food-one.jpg": {
+    "size": 196862,
+    "date": "2014-04-26T22:24:31.468Z"
+  },
+  "images/food-three.JPG": {
+    "size": 197738,
+    "date": "2014-04-26T19:53:46.904Z"
+  },
+  "images/food-two.jpg": {
+    "size": 119647,
+    "date": "2014-04-26T22:24:33.313Z"
   },
   "images/left-bird.png": {
-    "size": 17915,
-    "date": "2014-04-21T03:45:13.575Z"
+    "size": 18171,
+    "date": "2014-04-26T22:24:33.881Z"
+  },
+  "images/light_grey.png": {
+    "size": 448,
+    "date": "2014-04-26T19:53:49.698Z"
   },
   "images/logo-master.jpg": {
     "size": 113738,
-    "date": "2014-04-21T03:45:15.797Z"
+    "date": "2014-04-26T22:24:35.585Z"
   },
   "images/logo.png": {
-    "size": 104545,
-    "date": "2014-04-21T03:45:17.459Z"
+    "size": 97232,
+    "date": "2014-04-26T19:53:52.913Z"
   },
   "images/music-note.png": {
     "size": 1056,
-    "date": "2014-04-21T03:45:17.860Z"
+    "date": "2014-04-26T19:53:53.241Z"
+  },
+  "images/paper_fibers.png": {
+    "size": 74094,
+    "date": "2014-04-26T19:53:54.470Z"
   },
   "images/right-bird.png": {
-    "size": 16494,
-    "date": "2014-04-21T03:45:18.483Z"
+    "size": 16944,
+    "date": "2014-04-26T22:24:36.140Z"
+  },
+  "images/store-front.jpg": {
+    "size": 397086,
+    "date": "2014-04-26T22:24:41.239Z"
   },
   "images/style-guide-bg.png": {
     "size": 131,
-    "date": "2014-04-21T03:45:18.856Z"
+    "date": "2014-04-26T19:54:00.426Z"
+  },
+  "images/top-background.jpg": {
+    "size": 1227,
+    "date": "2014-04-26T22:24:41.574Z"
   },
   "index.html": {
-    "size": 1791,
-    "date": "2014-04-21T03:45:19.648Z"
+    "size": 2743,
+    "date": "2014-04-26T22:24:41.918Z"
   },
   "js/min/script.min.js": {
-    "size": 132,
-    "date": "2014-04-21T03:45:20.022Z"
+    "size": 171,
+    "date": "2014-04-26T19:54:01.455Z"
   },
   "js/script.js": {
-    "size": 155,
-    "date": "2014-04-21T03:45:20.397Z"
+    "size": 207,
+    "date": "2014-04-26T19:54:01.788Z"
+  },
+  "slick/ajax-loader.gif": {
+    "size": 4178,
+    "date": "2014-04-26T19:54:02.155Z"
+  },
+  "slick/fonts/slick.eot": {
+    "size": 2048,
+    "date": "2014-04-26T19:54:02.491Z"
+  },
+  "slick/fonts/slick.svg": {
+    "size": 2152,
+    "date": "2014-04-26T19:54:02.833Z"
+  },
+  "slick/fonts/slick.ttf": {
+    "size": 1892,
+    "date": "2014-04-26T19:54:03.178Z"
+  },
+  "slick/fonts/slick.woff": {
+    "size": 1380,
+    "date": "2014-04-26T19:54:03.507Z"
+  },
+  "slick/min/slick.min.js": {
+    "size": 23988,
+    "date": "2014-04-26T19:54:04.139Z"
+  },
+  "slick/slick.css": {
+    "size": 4648,
+    "date": "2014-04-26T19:54:04.557Z"
+  },
+  "slick/slick.js": {
+    "size": 46411,
+    "date": "2014-04-26T19:54:05.459Z"
+  },
+  "slick/slick.min.js": {
+    "size": 23988,
+    "date": "2014-04-26T19:54:06.096Z"
   },
   "style-guide.html": {
     "size": 7286,
-    "date": "2014-04-21T03:45:20.923Z"
+    "date": "2014-04-26T19:54:06.550Z"
   },
   "stylesheets/mobile.css": {
     "size": 114,
-    "date": "2014-04-21T03:45:21.301Z"
+    "date": "2014-04-26T19:54:06.866Z"
   },
   "stylesheets/style.css": {
-    "size": 19888,
-    "date": "2014-04-21T03:45:21.946Z"
+    "size": 11806,
+    "date": "2014-04-26T22:24:42.423Z"
   }
 }
