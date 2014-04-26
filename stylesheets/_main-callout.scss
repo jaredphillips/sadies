@@ -1,5 +1,4 @@
 .main-callout {
-	background: $red;
 	width: 90%;
 	height: 100%;
 	margin: 0 auto;
@@ -10,7 +9,38 @@
 			width: 28%;
 			text-align: center;
 			margin: 0 2% 0 2%;
-			background: white;
 		}
 	}
+}
+
+.top {
+	padding-bottom: 5px;
+	border-bottom: 2px solid $darker-blue;
+	display: block;
+	margin: 5px;
+}
+
+.middle {
+	display: block;
+	margin: -1px;
+}	
+
+.bottom {
+	display: block;
+	margin: 5px;
+	padding-top: 5px;
+	border-top: 2px solid $darker-blue;
+}
+
+.logo {
+	position: relative;
+	top: -110px;
+	left: 0;
+	height: 190px;
+	width: 280px;
+	max-width: 100%;
+}
+
+.email {
+	text-decoration: none;
 }

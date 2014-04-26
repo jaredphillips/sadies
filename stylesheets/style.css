@@ -333,22 +333,57 @@ header {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\000031}}
 .main-callout {
-  background: #d4320b;
   width: 90%;
   height: 100%;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\000035}}
 .main-callout ul {
   list-style-type: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\000037}}
 .main-callout ul li {
   float: left;
   width: 28%;
   text-align: center;
   margin: 0 2% 0 2%;
-  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\0000316}}
+.top {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #9bd8eb;
+  display: block;
+  margin: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\0000323}}
+.middle {
+  display: block;
+  margin: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\0000328}}
+.bottom {
+  display: block;
+  margin: 5px;
+  padding-top: 5px;
+  border-top: 2px solid #9bd8eb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\0000335}}
+.logo {
+  position: relative;
+  top: -110px;
+  left: 0;
+  height: 190px;
+  width: 280px;
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_main-callout\.scss}line{font-family:\0000344}}
+.email {
+  text-decoration: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/_yep\/dev\/sadies\/stylesheets\/_sub-callout\.scss}line{font-family:\000031}}
