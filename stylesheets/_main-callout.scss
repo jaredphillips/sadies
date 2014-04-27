@@ -80,4 +80,14 @@
 
 .email {
 	text-decoration: none;
+	color: $off-black;	
+	font-family: 'Lato', 'sans-serif';
+	line-height: 1.555;
+	font-size: 19px;
+	font-weight: 300;
+	transition: 4s;
+	&:hover {
+		color: $red;
+		transition: .1s;
+	}	
 }

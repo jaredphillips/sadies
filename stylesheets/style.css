@@ -594,11 +594,22 @@ header {
 /* line 81, _main-callout.scss */
 .email {
   text-decoration: none;
+  color: #2b2b27;
+  font-family: 'Lato', 'sans-serif';
+  line-height: 1.555;
+  font-size: 19px;
+  font-weight: 300;
+  transition: 4s;
+}
+/* line 89, _main-callout.scss */
+.email:hover {
+  color: #d4320b;
+  transition: .1s;
 }
 
 /* line 1, _sub-callout.scss */
 .sub-callout {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 /* line 4, _sub-callout.scss */
@@ -608,31 +619,38 @@ header {
 /* line 6, _sub-callout.scss */
 .sub-callout ul li {
   width: 15%;
-  margin: 0 2.5% 0 2.5%;
+  margin: 0 2% 0 2%;
   float: left;
   text-align: center;
 }
 /* line 11, _sub-callout.scss */
 .sub-callout ul li a {
-  color: #2b2b27;
+  padding: 15px;
+  color: #d4320b;
   font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  font-family: 'Oswald', 'sans-serif';
+  font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none;
   vertical-align: center;
+  transition: .5s;
+}
+/* line 21, _sub-callout.scss */
+.sub-callout ul li a:hover {
+  color: #2b2b27;
+  transition: .5s;
 }
 
-/* line 24, _sub-callout.scss */
+/* line 31, _sub-callout.scss */
 .box {
   position: relative;
-  padding: 10px;
+  padding: 12px;
   background: #F9F5F2;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
   border-radius: 0%     0%     25%     25% /     0%     0%     3%     3%;
 }
 
-/* line 32, _sub-callout.scss */
+/* line 39, _sub-callout.scss */
 .box:before {
   content: '';
   position: absolute;
@@ -649,7 +667,7 @@ header {
   transform: rotate(-3deg) skew(0deg);
 }
 
-/* line 48, _sub-callout.scss */
+/* line 55, _sub-callout.scss */
 .box:after {
   content: '';
   position: absolute;
@@ -666,13 +684,54 @@ header {
   transform: rotate(3deg) skew(0deg);
 }
 
-/* line 68, _sub-callout.scss */
-.box .one {
-  -ms-transform: rotate(30deg);
-  /* IE 9 */
-  -webkit-transform: rotate(30deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(30deg);
+/* line 72, _sub-callout.scss */
+a.one {
+  position: relative;
+  top: 3px;
+}
+/* line 75, _sub-callout.scss */
+a.one:hover {
+  top: 5px;
+}
+
+/* line 80, _sub-callout.scss */
+a.two {
+  position: relative;
+  top: 8px;
+}
+/* line 83, _sub-callout.scss */
+a.two:hover {
+  top: 11px;
+}
+
+/* line 88, _sub-callout.scss */
+a.three {
+  position: relative;
+  top: 6px;
+}
+/* line 91, _sub-callout.scss */
+a.three:hover {
+  top: 9px;
+}
+
+/* line 96, _sub-callout.scss */
+a.four {
+  position: relative;
+  top: 10px;
+}
+/* line 99, _sub-callout.scss */
+a.four:hover {
+  top: 13px;
+}
+
+/* line 104, _sub-callout.scss */
+a.five {
+  position: relative;
+  top: 5px;
+}
+/* line 107, _sub-callout.scss */
+a.five:hover {
+  top: 7px;
 }
 
 /* line 1, _slider.scss */
