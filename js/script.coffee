@@ -3,7 +3,12 @@ $('a.box').click ->
 	$(@).addClass("active")
 
 $('.food').slick (
-  autoplay: true
+  autoplay: true,
+  autoplaySpeed: 2300,
+  arrows: false,
+  fade: true,
+  infinite: true,
+  speed: 2000
 )
 
 
