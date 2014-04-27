@@ -1,178 +1,178 @@
 {
   "fonts/icomoon.eot": {
     "size": 2624,
-    "date": "2014-04-27T04:07:54.172Z"
+    "date": "2014-04-27T17:45:14.046Z"
   },
   "fonts/icomoon.svg": {
     "size": 4651,
-    "date": "2014-04-27T04:07:55.965Z"
+    "date": "2014-04-27T17:45:15.072Z"
   },
   "fonts/icomoon.ttf": {
     "size": 2460,
-    "date": "2014-04-27T04:07:56.288Z"
+    "date": "2014-04-27T17:45:15.715Z"
   },
   "fonts/icomoon.woff": {
     "size": 1964,
-    "date": "2014-04-27T04:07:56.589Z"
+    "date": "2014-04-27T17:45:16.326Z"
   },
   "images/1food.jpg": {
     "size": 62936,
-    "date": "2014-04-27T04:07:57.622Z"
+    "date": "2014-04-27T17:45:17.795Z"
   },
   "images/2food.jpg": {
     "size": 67728,
-    "date": "2014-04-27T04:07:58.743Z"
+    "date": "2014-04-27T17:45:19.324Z"
   },
   "images/3food.jpg": {
     "size": 61124,
-    "date": "2014-04-27T04:07:59.787Z"
+    "date": "2014-04-27T17:45:20.725Z"
   },
   "images/4food.jpg": {
     "size": 48639,
-    "date": "2014-04-27T04:08:00.689Z"
+    "date": "2014-04-27T17:45:21.918Z"
   },
   "images/5food.jpg": {
     "size": 65267,
-    "date": "2014-04-27T04:08:01.768Z"
+    "date": "2014-04-27T17:45:23.369Z"
   },
   "images/down_arrow.png": {
     "size": 458,
-    "date": "2014-04-27T04:08:02.043Z"
+    "date": "2014-04-27T17:45:23.941Z"
   },
   "images/fabric.png": {
     "size": 10211,
-    "date": "2014-04-27T04:08:02.461Z"
+    "date": "2014-04-27T17:45:24.748Z"
   },
   "images/fav.png": {
     "size": 18302,
-    "date": "2014-04-27T04:08:02.982Z"
+    "date": "2014-04-27T17:45:25.675Z"
   },
   "images/favicon.png": {
     "size": 18302,
-    "date": "2014-04-27T04:08:03.503Z"
+    "date": "2014-04-27T17:45:26.513Z"
   },
   "images/floral.png": {
     "size": 6162,
-    "date": "2014-04-27T04:08:03.905Z"
+    "date": "2014-04-27T17:45:27.214Z"
   },
   "images/food-five.jpg": {
     "size": 119647,
-    "date": "2014-04-27T04:08:05.612Z"
+    "date": "2014-04-27T17:45:29.414Z"
   },
   "images/food-four.jpg": {
     "size": 191752,
-    "date": "2014-04-27T04:08:08.407Z"
+    "date": "2014-04-27T17:45:32.490Z"
   },
   "images/food-one.jpg": {
     "size": 196862,
-    "date": "2014-04-27T04:08:16.580Z"
+    "date": "2014-04-27T17:45:35.564Z"
   },
   "images/food-three.JPG": {
     "size": 197738,
-    "date": "2014-04-27T04:08:20.839Z"
+    "date": "2014-04-27T17:45:38.585Z"
   },
   "images/food-two.jpg": {
     "size": 119647,
-    "date": "2014-04-27T04:08:23.428Z"
+    "date": "2014-04-27T17:45:40.615Z"
   },
   "images/left-bird.png": {
     "size": 18171,
-    "date": "2014-04-27T04:08:23.959Z"
+    "date": "2014-04-27T17:45:41.397Z"
   },
   "images/light_grey.png": {
     "size": 448,
-    "date": "2014-04-27T04:08:24.266Z"
+    "date": "2014-04-27T17:45:41.964Z"
   },
   "images/logo-master.jpg": {
     "size": 113738,
-    "date": "2014-04-27T04:08:25.911Z"
+    "date": "2014-04-27T17:45:43.921Z"
   },
   "images/logo.png": {
     "size": 97232,
-    "date": "2014-04-27T04:08:27.364Z"
+    "date": "2014-04-27T17:45:45.738Z"
   },
   "images/music-note.png": {
     "size": 1056,
-    "date": "2014-04-27T04:08:27.652Z"
+    "date": "2014-04-27T17:45:46.355Z"
   },
   "images/paper_fibers.png": {
     "size": 74094,
-    "date": "2014-04-27T04:08:28.826Z"
+    "date": "2014-04-27T17:45:47.925Z"
   },
   "images/right-bird.png": {
     "size": 16944,
-    "date": "2014-04-27T04:08:29.340Z"
+    "date": "2014-04-27T17:45:48.791Z"
   },
   "images/store-front.jpg": {
     "size": 397086,
-    "date": "2014-04-27T04:08:35.746Z"
+    "date": "2014-04-27T17:45:54.253Z"
   },
   "images/style-guide-bg.png": {
     "size": 131,
-    "date": "2014-04-27T04:08:36.638Z"
+    "date": "2014-04-27T17:45:55.171Z"
   },
   "images/top-background.jpg": {
     "size": 1227,
-    "date": "2014-04-27T04:08:37.675Z"
+    "date": "2014-04-27T17:45:55.787Z"
   },
   "index.html": {
-    "size": 2763,
-    "date": "2014-04-27T04:08:39.279Z"
+    "size": 3241,
+    "date": "2014-04-27T17:45:56.382Z"
   },
   "js/min/script.min.js": {
-    "size": 171,
-    "date": "2014-04-27T04:08:41.274Z"
+    "size": 213,
+    "date": "2014-04-27T17:45:56.900Z"
   },
   "js/script.js": {
-    "size": 207,
-    "date": "2014-04-27T04:08:42.910Z"
+    "size": 289,
+    "date": "2014-04-27T17:45:57.407Z"
   },
   "slick/ajax-loader.gif": {
     "size": 4178,
-    "date": "2014-04-27T04:08:43.913Z"
+    "date": "2014-04-27T17:45:57.990Z"
   },
   "slick/fonts/slick.eot": {
     "size": 2048,
-    "date": "2014-04-27T04:08:44.209Z"
+    "date": "2014-04-27T17:45:58.583Z"
   },
   "slick/fonts/slick.svg": {
     "size": 2152,
-    "date": "2014-04-27T04:08:44.513Z"
+    "date": "2014-04-27T17:45:59.181Z"
   },
   "slick/fonts/slick.ttf": {
     "size": 1892,
-    "date": "2014-04-27T04:08:44.804Z"
+    "date": "2014-04-27T17:45:59.724Z"
   },
   "slick/fonts/slick.woff": {
     "size": 1380,
-    "date": "2014-04-27T04:08:45.118Z"
+    "date": "2014-04-27T17:46:01.673Z"
   },
   "slick/min/slick.min.js": {
     "size": 23988,
-    "date": "2014-04-27T04:08:45.705Z"
+    "date": "2014-04-27T17:46:02.564Z"
   },
   "slick/slick.css": {
     "size": 4648,
-    "date": "2014-04-27T04:08:46.066Z"
+    "date": "2014-04-27T17:46:03.217Z"
   },
   "slick/slick.js": {
     "size": 46411,
-    "date": "2014-04-27T04:08:46.937Z"
+    "date": "2014-04-27T17:46:04.418Z"
   },
   "slick/slick.min.js": {
     "size": 23988,
-    "date": "2014-04-27T04:08:47.516Z"
+    "date": "2014-04-27T17:46:05.434Z"
   },
   "style-guide.html": {
     "size": 7286,
-    "date": "2014-04-27T04:08:47.902Z"
+    "date": "2014-04-27T17:46:06.164Z"
   },
   "stylesheets/mobile.css": {
     "size": 114,
-    "date": "2014-04-27T04:08:50.079Z"
+    "date": "2014-04-27T17:46:06.709Z"
   },
   "stylesheets/style.css": {
-    "size": 12872,
-    "date": "2014-04-27T04:08:52.077Z"
+    "size": 12372,
+    "date": "2014-04-27T17:46:07.445Z"
   }
 }

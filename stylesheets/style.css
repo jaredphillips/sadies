@@ -696,7 +696,7 @@ a.box.active {
 /* line 1, _slider.scss */
 .slider {
   margin-top: 50px;
-  height: 600px;
+  height: 760px;
 }
 /* line 4, _slider.scss */
 .slider .food {
@@ -707,9 +707,60 @@ a.box.active {
   text-align: center;
 }
 /* line 10, _slider.scss */
-.slider img {
+.slider img.slides {
   display: block;
   margin: 0 auto;
+  border: 15px solid #a7e1f1;
+}
+
+/* line 17, _slider.scss */
+.slider-list {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 21, _slider.scss */
+.slider-list ul {
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 25, _slider.scss */
+.slider-list ul li {
+  margin-top: 30px;
+  width: 33.3333%;
+  height: 200px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+/* line 34, _slider.scss */
+.slider-list ul .one {
+  border-right: 1px solid #a7e1f1;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  color: #2b2b27;
+}
+/* line 41, _slider.scss */
+.slider-list ul .one span {
+  text-decoration: underline;
+  color: #d4320b;
+}
+/* line 47, _slider.scss */
+.slider-list ul .two img {
+  height: 220px;
+  border-radius: 10px;
+}
+/* line 52, _slider.scss */
+.slider-list ul .three {
+  border-left: 1px solid #a7e1f1;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: #2B2B27;
 }
 
 /* line 1, _top-footer.scss */

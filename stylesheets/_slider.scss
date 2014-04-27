@@ -1,14 +1,60 @@
 .slider {
 	margin-top: 50px;
-	height: 600px;
+	height: 760px;
 	.food {
 		width: 100%;
 	}
 	h2 {
 		text-align: center;
 	}
-	img {
+	img.slides {
 		display: block;
 		margin: 0 auto;
+		border: 15px solid $lighter-blue;
+	}
+}
+
+.slider-list {
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	ul {
+		list-style-type: none;
+		width: 80%;
+		margin: 0 auto;
+		li {
+			margin-top: 30px;
+			width: 33.3333%;
+			height: 200px;
+			padding: 10px;
+			display: inline-block;
+			float: left;
+			text-align: center;
+		}
+		.one {
+			border-right: 1px solid $lighter-blue;
+			font-family: 'Lato', sans-serif;
+			line-height: 1.6;
+			font-size: 17px;
+			letter-spacing: 0.05em;
+			color: $off-black;
+			span {
+				text-decoration: underline;
+				color: $red;
+			}
+		}
+		.two {
+			img {
+				height: 220px;
+				border-radius: 10px;
+			}
+		}
+		.three {
+			border-left: 1px solid $lighter-blue;
+			font-family: 'Lato', sans-serif;
+			line-height: 1.6;
+			letter-spacing: 0.05em;
+			color: #2B2B27;
+		}
 	}
 }
