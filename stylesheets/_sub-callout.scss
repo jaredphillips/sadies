@@ -8,8 +8,10 @@
 	  	margin: 0 2% 0 2%;
 	    float: left;
 			text-align: center;
-	    a {
-	    	padding: 15px;
+	    a.box {
+	    	position: relative;
+				top: 3px;
+	    	padding: 10px 30px;
 	    	color: $red;
 	    	font-size: 18px;
 	    	font-family: 'Oswald', 'sans-serif';
@@ -21,13 +23,17 @@
 	     	&:hover {
 	     		color: $off-black;
 	     		transition: .5s;
+	     		top: + 6px;
 	     	}
  			}   
     }
   }
 }
 
+
+
 // Creates the paper looking boxes for navigation
+
 .box {
   position: relative;
   padding: 12px;
@@ -69,45 +75,9 @@
 }
 
 
-a.one {
-	position: relative;
-	top: 3px;
-	&:hover {
-		top: 5px;
-	}
+a.box.active {
+	color: $off-black;
+	top: + 6px;
 }
-
-a.two {
-	position: relative;
-	top: 8px;
-	&:hover {
-		top: 11px;
-	}
-}
-
-a.three {
-	position: relative;
-	top: 6px;
-	&:hover {
-		top: 9px;
-	}
-}
-
-a.four {
-	position: relative;
-	top: 10px;
-	&:hover {
-		top: 13px;
-	}
-}
-
-a.five {
-	position: relative;
-	top: 5px;
-	&:hover {
-		top: 7px;
-	}
-}
-
 
 

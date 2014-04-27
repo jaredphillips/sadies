@@ -624,8 +624,10 @@ header {
   text-align: center;
 }
 /* line 11, _sub-callout.scss */
-.sub-callout ul li a {
-  padding: 15px;
+.sub-callout ul li a.box {
+  position: relative;
+  top: 3px;
+  padding: 10px 30px;
   color: #d4320b;
   font-size: 18px;
   font-family: 'Oswald', 'sans-serif';
@@ -635,13 +637,14 @@ header {
   vertical-align: center;
   transition: .5s;
 }
-/* line 21, _sub-callout.scss */
-.sub-callout ul li a:hover {
+/* line 23, _sub-callout.scss */
+.sub-callout ul li a.box:hover {
   color: #2b2b27;
   transition: .5s;
+  top: 6px;
 }
 
-/* line 31, _sub-callout.scss */
+/* line 37, _sub-callout.scss */
 .box {
   position: relative;
   padding: 12px;
@@ -650,7 +653,7 @@ header {
   border-radius: 0%     0%     25%     25% /     0%     0%     3%     3%;
 }
 
-/* line 39, _sub-callout.scss */
+/* line 45, _sub-callout.scss */
 .box:before {
   content: '';
   position: absolute;
@@ -667,7 +670,7 @@ header {
   transform: rotate(-3deg) skew(0deg);
 }
 
-/* line 55, _sub-callout.scss */
+/* line 61, _sub-callout.scss */
 .box:after {
   content: '';
   position: absolute;
@@ -684,54 +687,10 @@ header {
   transform: rotate(3deg) skew(0deg);
 }
 
-/* line 72, _sub-callout.scss */
-a.one {
-  position: relative;
-  top: 3px;
-}
-/* line 75, _sub-callout.scss */
-a.one:hover {
-  top: 5px;
-}
-
-/* line 80, _sub-callout.scss */
-a.two {
-  position: relative;
-  top: 8px;
-}
-/* line 83, _sub-callout.scss */
-a.two:hover {
-  top: 11px;
-}
-
-/* line 88, _sub-callout.scss */
-a.three {
-  position: relative;
+/* line 78, _sub-callout.scss */
+a.box.active {
+  color: #2b2b27;
   top: 6px;
-}
-/* line 91, _sub-callout.scss */
-a.three:hover {
-  top: 9px;
-}
-
-/* line 96, _sub-callout.scss */
-a.four {
-  position: relative;
-  top: 10px;
-}
-/* line 99, _sub-callout.scss */
-a.four:hover {
-  top: 13px;
-}
-
-/* line 104, _sub-callout.scss */
-a.five {
-  position: relative;
-  top: 5px;
-}
-/* line 107, _sub-callout.scss */
-a.five:hover {
-  top: 7px;
 }
 
 /* line 1, _slider.scss */

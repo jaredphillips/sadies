@@ -1,9 +1,9 @@
-$('a.nav-link').click ->
-	$('a.nav-link').removeClass("active")
+$('a.box').click ->
+	$('a.box').removeClass("active")
 	$(@).addClass("active")
 
-$('.slider-class').slick (
-  name: value
+$('.food').slick (
+  autoplay: true
 )
 
 

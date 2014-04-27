@@ -4,6 +4,7 @@
 	%meta{ charset: "UTF-8" }
 	%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
 	%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
+	%link{ rel: "stylesheet", type: "text/css", href: "slick/slick.css" }
 	%meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
 	%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: "text/css" }
 	%link{ href: "http://fonts.googleapis.com/css?family=Lato:100,300,400,700", rel: "stylesheet", type: "text/css" }
@@ -34,19 +35,27 @@
 		.sub-callout.clearfix
 			%ul
 				%li
-					%a.box.one{ href: "#" } About
+					%a.box{ href: "#" } About
 				%li
-					%a.box.two{ href: "#" } Chili-for-Charity
+					%a.box{ href: "#" } Chili-for-Charity
 				%li
-					%a.box.three{ href: "#" } Artshow
+					%a.box{ href: "#" } Artshow
 				%li
-					%a.box.four{ href: "#"} Menu
+					%a.box{ href: "#"} Menu
 				%li
-					%a.box.five{ href: "#" } Contact
+					%a.box{ href: "#" } Contact
 		.slider
 			.food
-				%h2 Our Menu
-				%img{ src: "images/1food.jpg" }
+				%div
+					%img{ src: "images/1food.jpg" }
+				%div
+					%img{ src: "images/2food.jpg" }
+				%div
+					%img{ src: "images/3food.jpg" }
+				%div
+					%img{ src: "images/4food.jpg" }
+				%div
+					%img{ src: "images/5food.jpg" }
 	.top-footer
 		.text-container
 			%h3 Here at Sadie's Diner
@@ -55,6 +64,13 @@
 				%li Even more crazy stuff goes here.
 				%li Maybe a contact button or something here.
 				%li Some more
-	%footer			
-	%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
+	%footer
+	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js" }
+	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
+	%script{ type: "text/javascript", src: "slick/slick.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }
+
+				
+
+
+

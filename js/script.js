@@ -1,11 +1,12 @@
 (function() {
-  $('a.nav-link').click(function() {
-    $('a.nav-link').removeClass("active");
+  $('a.box').click(function() {
+    $('a.box').removeClass("active");
     return $(this).addClass("active");
   });
 
-  $('.slider-class').slick({
-    name: value
+  $('.food').slick({
+    autoplay: true
   });
+
 
 }).call(this);
