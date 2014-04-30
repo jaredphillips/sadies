@@ -6,7 +6,7 @@
 
   $('.food').slick({
     autoplay: true,
-    autoplaySpeed: 2300,
+    autoplaySpeed: 2000,
     arrows: false,
     fade: true,
     infinite: true,

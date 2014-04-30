@@ -810,8 +810,9 @@ footer {
   background: url(../images/top-background.jpg);
   height: 120px;
   margin-bottom: 0;
+  margin-top: 300px;
 }
-/* line 5, _footer.scss */
+/* line 6, _footer.scss */
 footer p {
   display: inline;
   position: relative;
@@ -821,14 +822,14 @@ footer p {
   font-size: .9em;
   letter-spacing: 1.1px;
 }
-/* line 13, _footer.scss */
+/* line 14, _footer.scss */
 footer p a {
   text-decoration: none;
   font-size: 1em;
   letter-spacing: 1.1px;
   color: white;
 }
-/* line 18, _footer.scss */
+/* line 19, _footer.scss */
 footer p a:hover {
   color: #d4320b;
 }
