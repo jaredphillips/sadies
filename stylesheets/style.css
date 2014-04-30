@@ -315,7 +315,7 @@ table {
 
 /* IE7 */
 /* line 8, _variables-misc.scss */
-body {
+html, body {
   background: #f9f5f2;
 }
 
@@ -765,25 +765,34 @@ a.box.active {
 
 /* line 1, _top-footer.scss */
 .top-footer {
+  position: relative;
+  bottom: -20px;
   background: #d4320b;
   width: 100%;
-  height: 600px;
-  margin: 0 auto;
+  height: 280px;
   vertical-align: center;
 }
-/* line 7, _top-footer.scss */
+/* line 8, _top-footer.scss */
 .top-footer h3 {
   position: relative;
-  top: 50px;
-  left: 300px;
-}
-/* line 12, _top-footer.scss */
-.top-footer ul {
-  margin-left: -40px;
-  margin-top: 100px;
-  list-style-type: none;
+  top: 0;
+  left: 150px;
+  font-family: 'Grand Hotel', serif;
+  color: #f9f5f2;
+  font-size: 5em;
+  display: inline-block;
 }
 /* line 16, _top-footer.scss */
+.top-footer h3:hover {
+  color: #9bd8eb;
+}
+/* line 20, _top-footer.scss */
+.top-footer ul {
+  width: 60%;
+  list-style-type: none;
+  margin: 0 auto;
+}
+/* line 24, _top-footer.scss */
 .top-footer ul li {
   float: left;
   width: 25%;
@@ -794,6 +803,26 @@ a.box.active {
 /* line 1, _footer.scss */
 footer {
   background: url(../images/top-background.jpg);
-  height: 150px;
-  display: block;
+  height: 120px;
+  margin-bottom: 0;
+}
+/* line 5, _footer.scss */
+footer p {
+  position: relative;
+  top: 80px;
+  left: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: .9em;
+  letter-spacing: 1.1px;
+}
+/* line 12, _footer.scss */
+footer p a {
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 1.1px;
+  color: white;
+}
+/* line 17, _footer.scss */
+footer p a:hover {
+  color: #d4320b;
 }

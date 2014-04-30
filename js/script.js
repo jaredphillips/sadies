@@ -10,7 +10,8 @@
     arrows: false,
     fade: true,
     infinite: true,
-    speed: 2000
+    speed: 2000,
+    pauseOnHover: false
   });
 
 }).call(this);

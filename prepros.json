@@ -457,6 +457,26 @@
       "type": "Jpg",
       "initialSize": 1994,
       "status": "OPTIMIZED"
+    },
+    "27f25786": {
+      "id": "27f25786",
+      "pid": "8b3c5ce5",
+      "path": "images/404master.jpg",
+      "size": 879450,
+      "name": "404master.jpg",
+      "type": "Jpg",
+      "initialSize": 879450,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1d30cb6b": {
+      "id": "1d30cb6b",
+      "pid": "8b3c5ce5",
+      "path": "images/coffee-splash.jpg",
+      "size": 25098,
+      "name": "coffee-splash.jpg",
+      "type": "Jpg",
+      "initialSize": 25098,
+      "status": "NOT_OPTIMIZED"
     }
   },
   "config": {
