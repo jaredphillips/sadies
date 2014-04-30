@@ -34,7 +34,7 @@
 		.sub-callout.clearfix
 			%ul
 				%li
-					%a.box{ href: "#" } About
+					%a#test.box{ href: "#" } About
 				%li
 					%a.box{ href: "#" } Chili-for-Charity
 				%li
@@ -63,11 +63,14 @@
 						%img{ src: "images/coffee-splash.jpg" }
 					%li.three 
 						%p Our eggs are free-run, our milk and cream is organic, our cheese is rennet-free and we offer vegan alternatives to all of these.
-	.top-footer
-		.text-container
-			%h3 We offer a full fair-trade vegetarian menu
-	%footer
-		%p Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a>
+.top-footer-wrapper
+	%h2 You'll love our full fair-trade vegetarian menu!
+	.foot-left-bird	
+		%img{ src: "images/left-bird.png", class: "left-bird-ani"}
+			
+
+	/ %footer
+	/ 	%p Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a>
 	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js" }
 	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
 	%script{ type: "text/javascript", src: "slick/slick.min.js" }

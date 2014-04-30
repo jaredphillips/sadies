@@ -24,6 +24,11 @@
 	     		color: $off-black;
 	     		transition: .5s;
 	     		top: + 6px;
+	     		&:active {
+	     			color: $off-black;
+		     		transition: .5s;
+		     		top: + 6px;
+		     	}
 	     	}
  			}   
     }
@@ -74,10 +79,6 @@
   transform: rotate(3deg) skew(0deg);
 }
 
-
-a.box.active {
-	color: $off-black;
-	top: + 6px;
-}
-
-
+#active {
+	text-decoration: underline;
+}	
