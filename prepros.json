@@ -187,6 +187,116 @@
         "outputStyle": "indented",
         "doubleQuotes": true
       }
+    },
+    "7885563a": {
+      "id": "7885563a",
+      "pid": "8b3c5ce5",
+      "name": "CHANGELOG.md",
+      "input": "fancybox/CHANGELOG.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "273cfb13": {
+      "id": "273cfb13",
+      "pid": "8b3c5ce5",
+      "name": "README.md",
+      "input": "fancybox/README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "b9ff699e": {
+      "id": "b9ff699e",
+      "pid": "8b3c5ce5",
+      "name": "jquery.mousewheel-3.0.6.pack.js",
+      "input": "fancybox/lib/jquery.mousewheel-3.0.6.pack.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "dd55d3e0": {
+      "id": "dd55d3e0",
+      "pid": "8b3c5ce5",
+      "name": "jquery.fancybox.js",
+      "input": "fancybox/source/jquery.fancybox.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "2bf3b27b": {
+      "id": "2bf3b27b",
+      "pid": "8b3c5ce5",
+      "name": "jquery.fancybox.pack.js",
+      "input": "fancybox/source/jquery.fancybox.pack.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4f7e09ce": {
+      "id": "4f7e09ce",
+      "pid": "8b3c5ce5",
+      "name": "jquery.fancybox-buttons.js",
+      "input": "fancybox/source/helpers/jquery.fancybox-buttons.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "7d9ca3bb": {
+      "id": "7d9ca3bb",
+      "pid": "8b3c5ce5",
+      "name": "jquery.fancybox-media.js",
+      "input": "fancybox/source/helpers/jquery.fancybox-media.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "987a7c09": {
+      "id": "987a7c09",
+      "pid": "8b3c5ce5",
+      "name": "jquery.fancybox-thumbs.js",
+      "input": "fancybox/source/helpers/jquery.fancybox-thumbs.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
     }
   },
   "imports": {
@@ -254,14 +364,6 @@
         "a588af7f"
       ]
     },
-    "fe8c0c93": {
-      "id": "fe8c0c93",
-      "pid": "8b3c5ce5",
-      "path": "stylesheets/_slider.scss",
-      "parents": [
-        "a588af7f"
-      ]
-    },
     "79c64a48": {
       "id": "79c64a48",
       "pid": "8b3c5ce5",
@@ -282,6 +384,22 @@
       "id": "aaf225ab",
       "pid": "8b3c5ce5",
       "path": "stylesheets/_variables-misc.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "5ca8c914": {
+      "id": "5ca8c914",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_main-container.scss",
+      "parents": [
+        "a588af7f"
+      ]
+    },
+    "3a76183e": {
+      "id": "3a76183e",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_slider-home.scss",
       "parents": [
         "a588af7f"
       ]
@@ -547,6 +665,46 @@
       "type": "Jpg",
       "initialSize": 25098,
       "status": "OPTIMIZED"
+    },
+    "c66c1561": {
+      "id": "c66c1561",
+      "pid": "8b3c5ce5",
+      "path": "images/creampaper.png",
+      "size": 12618,
+      "name": "creampaper.png",
+      "type": "Png",
+      "initialSize": 12618,
+      "status": "NOT_OPTIMIZED"
+    },
+    "47de9b3f": {
+      "id": "47de9b3f",
+      "pid": "8b3c5ce5",
+      "path": "images/knitting.png",
+      "size": 12669,
+      "name": "knitting.png",
+      "type": "Png",
+      "initialSize": 12669,
+      "status": "NOT_OPTIMIZED"
+    },
+    "15d64440": {
+      "id": "15d64440",
+      "pid": "8b3c5ce5",
+      "path": "images/p5.png",
+      "size": 135,
+      "name": "p5.png",
+      "type": "Png",
+      "initialSize": 135,
+      "status": "NOT_OPTIMIZED"
+    },
+    "928e834f": {
+      "id": "928e834f",
+      "pid": "8b3c5ce5",
+      "path": "images/streetview.jpg",
+      "size": 397037,
+      "name": "streetview.jpg",
+      "type": "Jpg",
+      "initialSize": 397037,
+      "status": "NOT_OPTIMIZED"
     }
   },
   "config": {

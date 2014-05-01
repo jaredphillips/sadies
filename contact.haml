@@ -1,62 +1,72 @@
 !!! 5
 %html
-	%title Sadie's Diner
-	%meta{ charset: "UTF-8" }
-	%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
-	%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
-	%link{ rel: "stylesheet", type: "text/css", href: "slick/slick.css" }
-	%meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
-	%link{ href: "http://fonts.googleapis.com/css?family=Lato:100,300,400,700", rel: "stylesheet", type: "text/css" }
-	%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: 'text/css' }
-	%link{ href: "http://fonts.googleapis.com/css?family=Oswald", rel: "stylesheet", type: "text/css" }
+	%head
+		%title Sadie's Diner
+		%meta{ charset: "UTF-8" }
 
-%body	
-	%header
-	.wrapper.clearfix
-		.main-callout.clearfix
-			%ul
-				%li
-					%h3.top Portland & Adelaide
-					%p.middle 504 Adelaide Street West
-					%p.middle	Toronto, ON M5V 1T5
-					%p.bottom (416) 777-2343
-				%li
-					%img.left-bird-no-ani{ src: "images/left-bird.png" }
-					%a{ href: "index.html" }
-						%img.logo{ src: "images/logo.png", href: "index.html" }
-					%img.music-note{ src: "images/music-note.png" }
-					%img.right-bird-no-ani{ src: "images/right-bird.png" }
-				%li
-					%h3.top Our Hours
-					%p.middle Monday-Friday: 7:30am-10pm
-					%p.middle Weekends: 9am-10pm
-					%p.bottom
-						%a.email{ href: "mailto:info@sadiesdiner.com" } info@sadiesdiner.com
-		.sub-callout.clearfix
-			%ul.menu
-				%li
-					%a.page-link{ href: "about.html" } About
-				%li
-					%a.page-link{ href: "charity.html" } Chili-for-Charity
-				%li
-					%a.page-link{ href: "artshow.html" } Artshow
-				%li
-					%a.page-link{ href: "menu.html" } Menu
-				%li
-					%a.page-link.active{ href: "contact.html" } Contact
-		.slider
-			.food
-				%div
-					%img.slides{ src: "images/1food.jpg" }
-				%div
-					%img.slides{ src: "images/2food.jpg" }
-				%div
-					%img.slides{ src: "images/3food.jpg" }
-				%div
-					%img.slides{ src: "images/4food.jpg" }
-				%div
-					%img.slides{ src: "images/5food.jpg" }
-			.slider-list
+
+
+		%link{ type: "image/png", href: "images/favicon.png", rel: "icon" }
+		%link{ rel: "stylesheet", type: "text/css", href: "stylesheets/style.css" }
+		%meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
+
+		/ Load Slick slider
+		%link{ rel: "stylesheet", type: "text/css", href: "slick/slick.css" }
+
+		/ Load Fancybox
+		%link{ rel: "stylesheet", href: "/fancybox/source/jquery.fancybox.css?v=2.1.5", type: "text/css", media: "screen" }
+		/ Google fonts loaded
+		%link{ href: "http://fonts.googleapis.com/css?family=Lato:100,300,400,700", rel: "stylesheet", type: "text/css" }
+		%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: 'text/css' }
+		%link{ href: "http://fonts.googleapis.com/css?family=Oswald", rel: "stylesheet", type: "text/css" }
+	%body	
+		%header
+		.wrapper.clearfix
+			.main-callout.clearfix
+				%ul
+					%li
+						%h3.top Portland & Adelaide
+						%p.middle 504 Adelaide Street West
+						%p.middle	Toronto, ON M5V 1T5
+						%p.bottom (416) 777-2343
+					%li
+						%img.left-bird{ src: "images/left-bird.png" }
+						%img.logo{ src: "images/logo.png" }
+						%img.music-note{ src: "images/music-note.png" }
+						%img.right-bird{ src: "images/right-bird.png" }
+					%li
+						%h3.top Our Hours
+						%p.middle Monday-Friday: 7:30am-10pm
+						%p.middle Weekends: 9am-10pm
+						%p.bottom
+							%a.email{ href: "mailto:info@sadiesdiner.com" } info@sadiesdiner.com
+			.sub-callout.clearfix
+				%ul.menu
+					%li
+						%a.page-link.rotate{ href: "about.html" } About
+					%li.two
+						%a.page-link{ href: "charity.html" } Chili-for-Charity
+					%li.three
+						%a.page-link{ href: "artshow.html" } Artshow
+					%li.four
+						%a.page-link{ href: "menu.html" } Menu
+					%li.five
+						%a.page-link{ href: "contact.html" } Contact
+
+			.main-content-container
+				.food
+					%div
+						%img.slides{ src: "images/1food.jpg" }
+					%div
+						%img.slides{ src: "images/2food.jpg" }
+					%div
+						%img.slides{ src: "images/3food.jpg" }
+					%div
+						%img.slides{ src: "images/4food.jpg" }
+					%div
+						%img.slides{ src: "images/5food.jpg" }
+
+			.page-list
 				%ul
 					%li.one 
 						%p All of our take-out containers are <span>100% compostable</span> and may be deposited in your green bin.
@@ -64,19 +74,27 @@
 						%img{ src: "images/coffee-splash.jpg" }
 					%li.three 
 						%p Our eggs are free-run, our milk and cream is organic, our cheese is rennet-free and we offer vegan alternatives to all of these.
-.top-footer-wrapper.clearfix
-	%h2 You'll love our full fair-trade vegetarian menu!
-	.foot-left-bird	
-		%img{ src: "images/left-bird.png", class: "left-bird-ani"}
-	.foot-right-bird	
-		%img{ src: "images/right-bird.png", class: "right-bird-ani"}
-			
 
-%footer
-	%p Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a>
+		.top-footer-wrapper.clearfix
+			%h2 You'll love our full fair-trade vegetarian menu!
+			.foot-left-bird	
+				%img{ src: "images/left-bird.png", class: "left-bird-ani"}
+			.foot-right-bird	
+				%img{ src: "images/right-bird.png", class: "right-bird-ani"}
 
+		%footer
+			%p Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a>
 
-	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js" }
-	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
-	%script{ type: "text/javascript", src: "slick/slick.min.js" }
-	%script{ type: "text/javascript", src: "js/min/script.min.js" }
+		/ jQuery Load
+		%script{ type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js" }
+		%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
+		
+		/ Slick slider load
+		%script{ type: "text/javascript", src: "slick/slick.min.js" }
+		%script{ type: "text/javascript", src: "js/min/script.min.js" }
+		/ Load Fancybox
+		%script{ type: "text/javascript", src: "/fancybox/source/jquery.fancybox.pack.js?v=2.1.5" }
+
+		/ Loading my scripts
+		%script{ type: "text/javascript", src: "js/script.js" }
+

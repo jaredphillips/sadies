@@ -1,8 +1,9 @@
 $('a.page-link').click ->
 	$('a.page-link').removeClass("active")
 	$(@).addClass("active")
-	
 
+$(".fancybox").fancybox()
+	
 $('.foot-left-bird').hover ->
 	$('.foot-left-bird').addClass('fly')
 
@@ -15,5 +16,6 @@ $('.food').slick (
   speed: 2000,
   pauseOnHover: false
 )
+
 
 

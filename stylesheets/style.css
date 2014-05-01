@@ -284,6 +284,11 @@ table {
   border-spacing: 0;
 }
 
+/* line 8, _variables-misc.scss */
+html, body {
+  background: #f9f5f2;
+}
+
 /* line 1, _border-box.scss */
 * {
   -moz-ring-sizing: border-ring;
@@ -314,11 +319,6 @@ table {
 }
 
 /* IE7 */
-/* line 8, _variables-misc.scss */
-html, body {
-  background: #f9f5f2;
-}
-
 /* line 1, _header.scss */
 header {
   background: url(../images/top-background.jpg);
@@ -659,41 +659,29 @@ a.active {
   color: #2b2b27;
 }
 
-/* line 1, _slider.scss */
-.slider {
-  margin-top: 50px;
-  height: 760px;
-}
-/* line 4, _slider.scss */
-.slider .food {
-  width: 100%;
-}
-/* line 7, _slider.scss */
-.slider h2 {
-  text-align: center;
-}
-/* line 10, _slider.scss */
-.slider img.slides {
+/* line 4, _slider-home.scss */
+img.slides {
   display: block;
   margin: 0 auto;
   border: 15px solid #a7e1f1;
 }
 
-/* line 17, _slider.scss */
-.slider-list {
-  height: 100px;
+/* line 10, _slider-home.scss */
+.page-list {
+  height: 200px;
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
-/* line 21, _slider.scss */
-.slider-list ul {
+/* line 14, _slider-home.scss */
+.page-list ul {
   list-style-type: none;
   width: 80%;
   margin: 0 auto;
 }
-/* line 25, _slider.scss */
-.slider-list ul li {
+/* line 18, _slider-home.scss */
+.page-list ul li {
   margin-top: 30px;
+  margin-bottom: 40px;
   width: 33.3333%;
   height: 200px;
   padding: 10px;
@@ -701,8 +689,8 @@ a.active {
   float: left;
   text-align: center;
 }
-/* line 34, _slider.scss */
-.slider-list ul .one {
+/* line 28, _slider-home.scss */
+.page-list ul .one {
   border-right: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
@@ -710,23 +698,132 @@ a.active {
   letter-spacing: 0.05em;
   color: #2b2b27;
 }
-/* line 41, _slider.scss */
-.slider-list ul .one span {
+/* line 35, _slider-home.scss */
+.page-list ul .one span {
   text-decoration: underline;
   color: #d4320b;
 }
-/* line 47, _slider.scss */
-.slider-list ul .two img {
+/* line 41, _slider-home.scss */
+.page-list ul .two img {
   height: 220px;
   border-radius: 10px;
 }
-/* line 52, _slider.scss */
-.slider-list ul .three {
+/* line 46, _slider-home.scss */
+.page-list ul .three {
   border-left: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
   letter-spacing: 0.05em;
   color: #2B2B27;
+}
+
+/* line 1, _main-container.scss */
+.main-content-container {
+  margin-top: 50px;
+  height: auto;
+}
+/* line 4, _main-container.scss */
+.main-content-container .content {
+  width: 85%;
+  margin: 0 auto;
+  border: 3px solid #9bd8eb;
+  border-radius: 15px;
+  padding: 0px 40px 40px 70px;
+  background: #f9f5f2;
+}
+/* line 11, _main-container.scss */
+.main-content-container .content h2 {
+  text-align: center;
+  font-family: 'Grand Hotel', serif;
+  color: #d4320b;
+  font-size: 4em;
+  letter-spacing: 2px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+/* line 20, _main-container.scss */
+.main-content-container .content h3 {
+  text-align: center;
+  font-family: 'Grand Hotel', serif;
+  color: #d4320b;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: 1s;
+}
+/* line 30, _main-container.scss */
+.main-content-container .content h4 {
+  text-align: center;
+  font-family: 'Grand Hotel', serif;
+  color: #d4320b;
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 38, _main-container.scss */
+.main-content-container .content p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: #2b2b27;
+}
+/* line 43, _main-container.scss */
+.main-content-container .content p a {
+  color: #d4320b;
+  text-align: center;
+  text-decoration: underline;
+}
+/* line 47, _main-container.scss */
+.main-content-container .content p a:hover {
+  color: #a7e1f1;
+}
+
+/* line 55, _main-container.scss */
+a.button {
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #9BD8EB;
+  text-decoration: none;
+  width: 240px;
+  padding: 7px;
+  font-size: 21px;
+  transition: .5s;
+  border: 1px solid #A7E1F1;
+  text-align: center;
+}
+/* line 66, _main-container.scss */
+a.button:hover {
+  background: white;
+  border: 1px solid #A7E1F1;
+}
+
+/* line 74, _main-container.scss */
+.side {
+  margin-top: 80px;
+  padding: 10px;
+  background: url(../images/fabric.png);
+  border: 1px solid #a7e1f1;
+  border-radius: 10px;
+  width: 35%;
+  float: right;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 85, _main-container.scss */
+.main {
+  width: 60%;
+}
+/* line 87, _main-container.scss */
+.main a.bottom-link {
+  color: #d4320b;
+  transition: .8s;
+}
+/* line 90, _main-container.scss */
+.main a.bottom-link:hover {
+  color: #9bd8eb;
+  transition: .8s;
 }
 
 /* line 1, _top-footer.scss */

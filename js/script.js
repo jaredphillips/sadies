@@ -4,6 +4,8 @@
     return $(this).addClass("active");
   });
 
+  $(".fancybox").fancybox();
+
   $('.foot-left-bird').hover(function() {
     return $('.foot-left-bird').addClass('fly');
   });

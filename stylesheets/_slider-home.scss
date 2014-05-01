@@ -1,29 +1,23 @@
-.slider {
-	margin-top: 50px;
-	height: 760px;
-	.food {
-		width: 100%;
-	}
-	h2 {
-		text-align: center;
-	}
-	img.slides {
-		display: block;
-		margin: 0 auto;
-		border: 15px solid $lighter-blue;
-	}
+// Slider for main page
+
+
+img.slides {
+	display: block;
+	margin: 0 auto;
+	border: 15px solid $lighter-blue;
 }
 
-.slider-list {
-	height: 100px;
+.page-list {
+	height: 200px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 10px auto;
 	ul {
 		list-style-type: none;
 		width: 80%;
 		margin: 0 auto;
 		li {
 			margin-top: 30px;
+			margin-bottom: 40px;
 			width: 33.3333%;
 			height: 200px;
 			padding: 10px;
