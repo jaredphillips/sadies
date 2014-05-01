@@ -18,12 +18,30 @@
 }
 
 .foot-left-bird {
+	display: block;
+	width: 138px;
 	position: relative;
 	top: -80px;
 	left: 288px;
 }
 
 .left-bird-ani {
+	&:hover {
+		-ms-transform: rotate(10deg); /* IE 9 */
+		-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+		transform: rotate(10deg);
+	}
+}
+
+.foot-right-bird {
+	display: block;
+	width: 138px;
+	position: relative;
+	top: -28px;
+	left: 959px;
+}
+
+.right-bird-ani {
 	&:hover {
 		-ms-transform: rotate(10deg); /* IE 9 */
 		-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */

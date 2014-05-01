@@ -1,12 +1,12 @@
 (function() {
-  $('a.box').click(function() {
-    $('a.box').removeClass("active");
+  $('a.page-link').click(function() {
+    $('a.page-link').removeClass("active");
     return $(this).addClass("active");
   });
 
   $('.food').slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2300,
     arrows: false,
     fade: true,
     infinite: true,

@@ -1,5 +1,5 @@
-$('a.box').click ->
-	$('a.box').removeClass("active")
+$('a.page-link').click ->
+	$('a.page-link').removeClass("active")
 	$(@).addClass("active")
 
 $('.food').slick (

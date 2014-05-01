@@ -362,7 +362,7 @@
       "id": "304fcb78",
       "pid": "8b3c5ce5",
       "path": "images/left-bird.png",
-      "size": 18171,
+      "size": 16779,
       "name": "left-bird.png",
       "type": "Png",
       "initialSize": 17915,
@@ -422,7 +422,7 @@
       "id": "5f7fecd8",
       "pid": "8b3c5ce5",
       "path": "images/right-bird.png",
-      "size": 16944,
+      "size": 16131,
       "name": "right-bird.png",
       "type": "Png",
       "initialSize": 16494,
@@ -462,21 +462,21 @@
       "id": "27f25786",
       "pid": "8b3c5ce5",
       "path": "images/404master.jpg",
-      "size": 879450,
+      "size": 857924,
       "name": "404master.jpg",
       "type": "Jpg",
       "initialSize": 879450,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "1d30cb6b": {
       "id": "1d30cb6b",
       "pid": "8b3c5ce5",
       "path": "images/coffee-splash.jpg",
-      "size": 25098,
+      "size": 24262,
       "name": "coffee-splash.jpg",
       "type": "Jpg",
       "initialSize": 25098,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     }
   },
   "config": {

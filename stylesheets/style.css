@@ -608,94 +608,41 @@ header {
 }
 
 /* line 1, _sub-callout.scss */
-.sub-callout {
-  width: 100%;
-  margin: 0 auto;
-}
-/* line 4, _sub-callout.scss */
-.sub-callout ul {
-  list-style-type: none;
-}
-/* line 6, _sub-callout.scss */
-.sub-callout ul li {
-  width: 15%;
-  margin: 0 2% 0 2%;
-  float: left;
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
-/* line 11, _sub-callout.scss */
-.sub-callout ul li a.box {
+/* line 6, _sub-callout.scss */
+ul.menu li {
+  display: inline-block;
+  padding: 20px 35px;
+}
+
+/* line 12, _sub-callout.scss */
+a.page-link {
   position: relative;
-  top: 3px;
-  padding: 10px 30px;
   color: #d4320b;
-  font-size: 18px;
-  font-family: 'Oswald', 'sans-serif';
-  font-weight: 400;
-  letter-spacing: 1px;
+  background: url(../images/creampaper.png);
+  padding: 17px;
   text-decoration: none;
-  vertical-align: center;
-  transition: .5s;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0% 0% 25% 25% / 0%  0% 3% 3%;
 }
 /* line 23, _sub-callout.scss */
-.sub-callout ul li a.box:hover {
-  color: #2b2b27;
-  transition: .5s;
-  top: 6px;
-}
-/* line 27, _sub-callout.scss */
-.sub-callout ul li a.box:hover:active {
-  color: #2b2b27;
-  transition: .5s;
-  top: 6px;
+a.page-link:hover {
+  top: 3px;
+  color: #9BD8EB;
 }
 
-/* line 42, _sub-callout.scss */
-.box {
-  position: relative;
-  padding: 12px;
-  background: #F9F5F2;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
-  border-radius: 0%     0%     25%     25% /     0%     0%     3%     3%;
-}
-
-/* line 50, _sub-callout.scss */
-.box:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  height: 20%;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-  -webkit-transform: rotate(-3deg) skew(0deg);
-  -moz-transform: rotate(-3deg) skew(0deg);
-  -ms-transform: rotate(-3deg) skew(0deg);
-  -o-transform: rotate(-3deg) skew(0deg);
-  transform: rotate(-3deg) skew(0deg);
-}
-
-/* line 66, _sub-callout.scss */
-.box:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  right: 10px;
-  width: 50%;
-  height: 20%;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-  -webkit-transform: rotate(3deg) skew(0deg);
-  -moz-transform: rotate(3deg) skew(0deg);
-  -ms-transform: rotate(3deg) skew(0deg);
-  -o-transform: rotate(3deg) skew(0deg);
-  transform: rotate(3deg) skew(0deg);
-}
-
-/* line 82, _sub-callout.scss */
-#active {
-  text-decoration: underline;
+/* line 29, _sub-callout.scss */
+a.active {
+  top: 3px;
+  color: #9BD8EB;
 }
 
 /* line 1, _slider.scss */
@@ -791,13 +738,33 @@ header {
 
 /* line 20, _top-footer.scss */
 .foot-left-bird {
+  display: block;
+  width: 138px;
   position: relative;
   top: -80px;
   left: 288px;
 }
 
-/* line 27, _top-footer.scss */
+/* line 29, _top-footer.scss */
 .left-bird-ani:hover {
+  -ms-transform: rotate(10deg);
+  /* IE 9 */
+  -webkit-transform: rotate(10deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+
+/* line 36, _top-footer.scss */
+.foot-right-bird {
+  display: block;
+  width: 138px;
+  position: relative;
+  top: -28px;
+  left: 959px;
+}
+
+/* line 45, _top-footer.scss */
+.right-bird-ani:hover {
   -ms-transform: rotate(10deg);
   /* IE 9 */
   -webkit-transform: rotate(10deg);

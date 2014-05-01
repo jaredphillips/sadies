@@ -1,84 +1,32 @@
-.sub-callout {
-	width: 100%;
-	margin: 0 auto;	
-	ul {
-	  list-style-type: none;
-	  li {
-	  	width: 15%;
-	  	margin: 0 2% 0 2%;
-	    float: left;
-			text-align: center;
-	    a.box {
-	    	position: relative;
-				top: 3px;
-	    	padding: 10px 30px;
-	    	color: $red;
-	    	font-size: 18px;
-	    	font-family: 'Oswald', 'sans-serif';
-	    	font-weight: 400;
-	    	letter-spacing: 1px;
-	     	text-decoration: none;
-	     	vertical-align: center;
-	     	transition: .5s;
-	     	&:hover {
-	     		color: $off-black;
-	     		transition: .5s;
-	     		top: + 6px;
-	     		&:active {
-	     			color: $off-black;
-		     		transition: .5s;
-		     		top: + 6px;
-		     	}
-	     	}
- 			}   
-    }
+ul.menu {
+	list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  li {
+  	display: inline-block;
+	  padding: 20px 35px;
+	}
+}
+
+a.page-link {
+	position: relative;
+	color: $red;
+	background: url(../images/creampaper.png);
+	padding: 17px;
+	text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 0% 0% 25% 25% / 0%  0% 3% 3%;
+  &:hover {
+  	top: 3px;
+  	color: #9BD8EB;
   }
 }
 
-
-
-// Creates the paper looking boxes for navigation
-
-.box {
-  position: relative;
-  padding: 12px;
-  background: #F9F5F2;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
-  border-radius: 0%     0%     25%     25% /     0%     0%     3%     3%;
+a.active {
+	top: 3px;
+	color: #9BD8EB;
 }
-
-.box:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  height: 20%;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-  -webkit-transform: rotate(-3deg) skew(-0deg);
-   -moz-transform: rotate(-3deg) skew(-0deg);
-   -ms-transform: rotate(-3deg) skew(-0deg);
-   -o-transform: rotate(-3deg) skew(-0deg);
-   transform: rotate(-3deg) skew(-0deg);
-}
-
-.box:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	bottom: 15px;
-	right: 10px;
-	width: 50%;
-	height: 20%;
-	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-	-webkit-transform: rotate(3deg) skew(0deg);
-	-moz-transform: rotate(3deg) skew(0deg);
-	-ms-transform: rotate(3deg) skew(0deg);
-	-o-transform: rotate(3deg) skew(0deg);
-  transform: rotate(3deg) skew(0deg);
-}
-
-#active {
-	text-decoration: underline;
-}	
