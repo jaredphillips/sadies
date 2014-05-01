@@ -650,13 +650,13 @@ a.page-link {
 /* line 23, _sub-callout.scss */
 a.page-link:hover {
   top: 3px;
-  color: #9BD8EB;
+  color: #2b2b27;
 }
 
 /* line 29, _sub-callout.scss */
 a.active {
   top: 3px;
-  color: #9BD8EB;
+  color: #2b2b27;
 }
 
 /* line 1, _slider.scss */

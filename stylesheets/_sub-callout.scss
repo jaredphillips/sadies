@@ -22,11 +22,11 @@ a.page-link {
   border-radius: 0% 0% 25% 25% / 0%  0% 3% 3%;
   &:hover {
   	top: 3px;
-  	color: #9BD8EB;
+  	color: $off-black;
   }
 }
 
 a.active {
 	top: 3px;
-	color: #9BD8EB;
+	color: $off-black;
 }
