@@ -21,10 +21,11 @@
 					%p.middle	Toronto, ON M5V 1T5
 					%p.bottom (416) 777-2343
 				%li
-					%img.left-bird{ src: "images/left-bird.png" }
-					%img.logo{ src: "images/logo.png" }
+					%img.left-bird-no-ani{ src: "images/left-bird.png" }
+					%a{ href: "index.html" }
+						%img.logo{ src: "images/logo.png", href: "index.html" }
 					%img.music-note{ src: "images/music-note.png" }
-					%img.right-bird{ src: "images/right-bird.png" }
+					%img.right-bird-no-ani{ src: "images/right-bird.png" }
 				%li
 					%h3.top Our Hours
 					%p.middle Monday-Friday: 7:30am-10pm
@@ -42,7 +43,7 @@
 				%li
 					%a.page-link{ href: "menu.html" } Menu
 				%li
-					%a.page-link{ href: "contact.html" } Contact
+					%a.page-link.active{ href: "contact.html" } Contact
 		.slider
 			.food
 				%div
@@ -79,8 +80,3 @@
 	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
 	%script{ type: "text/javascript", src: "slick/slick.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }
-
-			
-
-
-

@@ -21,10 +21,10 @@
 					%p.middle	Toronto, ON M5V 1T5
 					%p.bottom (416) 777-2343
 				%li
-					%img.left-bird{ src: "images/left-bird.png" }
+					%img.left-bird-no-ani{ src: "images/left-bird.png" }
 					%img.logo{ src: "images/logo.png" }
 					%img.music-note{ src: "images/music-note.png" }
-					%img.right-bird{ src: "images/right-bird.png" }
+					%img.right-bird-no-ani{ src: "images/right-bird.png" }
 				%li
 					%h3.top Our Hours
 					%p.middle Monday-Friday: 7:30am-10pm
@@ -36,7 +36,7 @@
 				%li
 					%a.page-link{ href: "about.html" } About
 				%li
-					%a.page-link{ href: "charity.html" } Chili-for-Charity
+					%a.page-link.active{ href: "charity.html" } Chili-for-Charity
 				%li
 					%a.page-link{ href: "artshow.html" } Artshow
 				%li
@@ -64,7 +64,7 @@
 					%li.three 
 						%p Our eggs are free-run, our milk and cream is organic, our cheese is rennet-free and we offer vegan alternatives to all of these.
 .top-footer-wrapper.clearfix
-	%h2 You'll love our full fair-trade vegetarian menu!
+	%h2 You'll love our full <span>fair-trade</span> vegetarian menu!
 	.foot-left-bird	
 		%img{ src: "images/left-bird.png", class: "left-bird-ani"}
 	.foot-right-bird	
@@ -79,8 +79,3 @@
 	%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
 	%script{ type: "text/javascript", src: "slick/slick.min.js" }
 	%script{ type: "text/javascript", src: "js/min/script.min.js" }
-
-			
-
-
-

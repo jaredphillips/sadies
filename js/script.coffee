@@ -1,6 +1,10 @@
 $('a.page-link').click ->
 	$('a.page-link').removeClass("active")
 	$(@).addClass("active")
+	
+
+$('.foot-left-bird').hover ->
+	$('.foot-left-bird').addClass('fly')
 
 $('.food').slick (
   autoplay: true,

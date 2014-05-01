@@ -78,6 +78,18 @@
 	-webkit-animation: bird-from-right 3.4s linear;
 }
 
+.left-bird-no-ani {
+	position: relative;
+	top: -130px;
+	left: -150px;
+}
+
+.right-bird-no-ani {
+	position: relative;
+	top: -347px;
+	left: 135px;
+}
+
 .email {
 	text-decoration: none;
 	color: $off-black;	

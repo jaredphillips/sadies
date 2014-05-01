@@ -592,6 +592,20 @@ header {
 }
 
 /* line 81, _main-callout.scss */
+.left-bird-no-ani {
+  position: relative;
+  top: -130px;
+  left: -150px;
+}
+
+/* line 87, _main-callout.scss */
+.right-bird-no-ani {
+  position: relative;
+  top: -347px;
+  left: 135px;
+}
+
+/* line 93, _main-callout.scss */
 .email {
   text-decoration: none;
   color: #2b2b27;
@@ -601,7 +615,7 @@ header {
   font-weight: 300;
   transition: 4s;
 }
-/* line 89, _main-callout.scss */
+/* line 101, _main-callout.scss */
 .email:hover {
   color: #d4320b;
   transition: .1s;
@@ -689,7 +703,7 @@ a.active {
 }
 /* line 34, _slider.scss */
 .slider-list ul .one {
-  border-right: 1px solid #a7e1f1;
+  border-right: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
   font-size: 17px;
@@ -708,7 +722,7 @@ a.active {
 }
 /* line 52, _slider.scss */
 .slider-list ul .three {
-  border-left: 1px solid #a7e1f1;
+  border-left: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
   letter-spacing: 0.05em;

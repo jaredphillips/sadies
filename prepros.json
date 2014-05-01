@@ -117,6 +117,76 @@
         "mangle": true,
         "sourcemaps": false
       }
+    },
+    "09fb980a": {
+      "id": "09fb980a",
+      "pid": "8b3c5ce5",
+      "name": "charity.haml",
+      "input": "charity.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": true
+      }
+    },
+    "17b71cb7": {
+      "id": "17b71cb7",
+      "pid": "8b3c5ce5",
+      "name": "about.haml",
+      "input": "about.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": true
+      }
+    },
+    "6f24beaa": {
+      "id": "6f24beaa",
+      "pid": "8b3c5ce5",
+      "name": "artshow.haml",
+      "input": "artshow.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": true
+      }
+    },
+    "f7eca6bf": {
+      "id": "f7eca6bf",
+      "pid": "8b3c5ce5",
+      "name": "menu.haml",
+      "input": "menu.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": true
+      }
+    },
+    "da5896f0": {
+      "id": "da5896f0",
+      "pid": "8b3c5ce5",
+      "name": "contact.haml",
+      "input": "contact.haml",
+      "customOutput": false,
+      "type": "Haml",
+      "config": {
+        "autoCompile": true,
+        "format": "html5",
+        "outputStyle": "indented",
+        "doubleQuotes": true
+      }
     }
   },
   "imports": {
