@@ -894,7 +894,7 @@
     "ftpHost": "ftp.itsafieldday.com",
     "ftpPort": "21",
     "ftpRemotePath": "sadiesdiner",
-    "ftpIgnorePreprocessorFiles": true,
+    "ftpIgnorePreprocessorFiles": false,
     "ftpType": "FTP",
     "ftpExcludePatterns": "",
     "ftpPassword": "",

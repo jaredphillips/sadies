@@ -4,7 +4,9 @@
     return $(this).addClass("active");
   });
 
-  $(".fancybox").fancybox();
+  $(".fancybox").attr("rel", "gallery").fancybox({
+    padding: 0
+  });
 
   $('.foot-left-bird').hover(function() {
     return $('.foot-left-bird').addClass('fly');

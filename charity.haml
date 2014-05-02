@@ -12,7 +12,7 @@
 		%link{ rel: "stylesheet", type: "text/css", href: "slick/slick.css" }
 
 		/ Load Fancybox
-		%link{ rel: "stylesheet", href: "/fancybox/source/jquery.fancybox.css?v=2.1.5", type: "text/css", media: "screen" }
+		%link{ rel: "stylesheet", href: "fancybox/source/jquery.fancybox.css?v=2.1.5", type: "text/css", media: "screen" }
 		/ Google fonts loaded
 		%link{ href: "http://fonts.googleapis.com/css?family=Lato:100,300,400,700", rel: "stylesheet", type: "text/css" }
 		%link{ href: "http://fonts.googleapis.com/css?family=Grand+Hotel", rel: "stylesheet", type: 'text/css' }
@@ -28,10 +28,11 @@
 						%p.middle	Toronto, ON M5V 1T5
 						%p.bottom (416) 777-2343
 					%li
-						%img.left-bird{ src: "images/left-bird.png" }
-						%img.logo{ src: "images/logo.png" }
+						%img.left-no-ani{ src: "images/left-bird.png" }
+						%a{ href: "index.html" }
+							%img.logo{ src: "images/logo.png" }
 						%img.music-note{ src: "images/music-note.png" }
-						%img.right-bird{ src: "images/right-bird.png" }
+						%img.right-no-ani{ src: "images/right-bird.png" }
 					%li
 						%h3.top Our Hours
 						%p.middle Monday-Friday: 7:30am-10pm
@@ -95,14 +96,17 @@
 			%p Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a>
 
 		/ jQuery Load
-		%script{ type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js" }
-		%script{ type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js" }
+		%script{ src: "http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" }
 		
+		/ Load Fancybox
+		%script{ type: "text/javascript", src: "fancybox/source/jquery.fancybox.pack.js?v=2.1.5" }
+
 		/ Slick slider load
 		%script{ type: "text/javascript", src: "slick/slick.min.js" }
 		%script{ type: "text/javascript", src: "js/min/script.min.js" }
-		/ Load Fancybox
-		%script{ type: "text/javascript", src: "/fancybox/source/jquery.fancybox.pack.js?v=2.1.5" }
-
+		
 		/ Loading my scripts
 		%script{ type: "text/javascript", src: "js/script.js" }
+
+
+		

@@ -51,6 +51,18 @@
 	-webkit-animation: bird-from-left 3s linear;
 }
 
+.left-no-ani {
+	position: relative;
+	top: -130px;
+	left: -150px;
+}
+
+.right-no-ani {
+	position: relative;
+	top: -347px;
+	left: 135px;
+}
+
 .logo {
 	position: relative;
 	top: -210px;

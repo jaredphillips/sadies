@@ -52,21 +52,31 @@
 	}
 }
 
+p.last-paragraph {
+	margin-bottom: 80px;
+}
+
 a.button {
-	margin: 0 auto;
+	position: relative;
+	left: 34%;
 	border-radius: 5px;
 	background: #9BD8EB;
 	text-decoration: none;
 	width: 240px;
 	padding: 7px;
+	font-family: 'Grand Hotel', serif;
 	font-size: 21px;
 	transition: .5s;
-	border: 1px solid #A7E1F1;
+	border: 1px solid $red;
 	text-align: center;
 	&:hover {
 		background: white;
 		border: 1px solid #A7E1F1;
 	}
+}
+
+.hidden {
+  display: none;
 }
 
 // Charity

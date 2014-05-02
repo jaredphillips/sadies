@@ -2,7 +2,7 @@ $('a.page-link').click ->
 	$('a.page-link').removeClass("active")
 	$(@).addClass("active")
 
-$(".fancybox").fancybox()
+$(".fancybox").attr("rel", "gallery").fancybox padding: 0
 	
 $('.foot-left-bird').hover ->
 	$('.foot-left-bird').addClass('fly')

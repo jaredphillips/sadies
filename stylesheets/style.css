@@ -562,6 +562,20 @@ header {
 }
 
 /* line 54, _main-callout.scss */
+.left-no-ani {
+  position: relative;
+  top: -130px;
+  left: -150px;
+}
+
+/* line 60, _main-callout.scss */
+.right-no-ani {
+  position: relative;
+  top: -347px;
+  left: 135px;
+}
+
+/* line 66, _main-callout.scss */
 .logo {
   position: relative;
   top: -210px;
@@ -571,7 +585,7 @@ header {
   max-width: 100%;
 }
 
-/* line 63, _main-callout.scss */
+/* line 75, _main-callout.scss */
 .music-note {
   position: relative;
   top: -362px;
@@ -583,7 +597,7 @@ header {
   -webkit-animation-delay: 3.4s;
 }
 
-/* line 74, _main-callout.scss */
+/* line 86, _main-callout.scss */
 .right-bird {
   position: relative;
   top: -347px;
@@ -591,21 +605,21 @@ header {
   -webkit-animation: bird-from-right 3.4s linear;
 }
 
-/* line 81, _main-callout.scss */
+/* line 93, _main-callout.scss */
 .left-bird-no-ani {
   position: relative;
   top: -130px;
   left: -150px;
 }
 
-/* line 87, _main-callout.scss */
+/* line 99, _main-callout.scss */
 .right-bird-no-ani {
   position: relative;
   top: -347px;
   left: 135px;
 }
 
-/* line 93, _main-callout.scss */
+/* line 105, _main-callout.scss */
 .email {
   text-decoration: none;
   color: #2b2b27;
@@ -615,7 +629,7 @@ header {
   font-weight: 300;
   transition: 4s;
 }
-/* line 101, _main-callout.scss */
+/* line 113, _main-callout.scss */
 .email:hover {
   color: #d4320b;
   transition: .1s;
@@ -780,25 +794,37 @@ img.slides {
 }
 
 /* line 55, _main-container.scss */
+p.last-paragraph {
+  margin-bottom: 80px;
+}
+
+/* line 59, _main-container.scss */
 a.button {
-  margin: 0 auto;
+  position: relative;
+  left: 34%;
   border-radius: 5px;
   background: #9BD8EB;
   text-decoration: none;
   width: 240px;
   padding: 7px;
+  font-family: 'Grand Hotel', serif;
   font-size: 21px;
   transition: .5s;
-  border: 1px solid #A7E1F1;
+  border: 1px solid #d4320b;
   text-align: center;
 }
-/* line 66, _main-container.scss */
+/* line 72, _main-container.scss */
 a.button:hover {
   background: white;
   border: 1px solid #A7E1F1;
 }
 
-/* line 74, _main-container.scss */
+/* line 78, _main-container.scss */
+.hidden {
+  display: none;
+}
+
+/* line 84, _main-container.scss */
 .side {
   margin-top: 80px;
   padding: 10px;
@@ -811,16 +837,16 @@ a.button:hover {
   text-align: center;
 }
 
-/* line 85, _main-container.scss */
+/* line 95, _main-container.scss */
 .main {
   width: 60%;
 }
-/* line 87, _main-container.scss */
+/* line 97, _main-container.scss */
 .main a.bottom-link {
   color: #d4320b;
   transition: .8s;
 }
-/* line 90, _main-container.scss */
+/* line 100, _main-container.scss */
 .main a.bottom-link:hover {
   color: #9bd8eb;
   transition: .8s;

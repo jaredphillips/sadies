@@ -9,7 +9,7 @@
     <!-- Load Slick slider -->
     <link href="slick/slick.css" rel="stylesheet" type="text/css">
     <!-- Load Fancybox -->
-    <link href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type="text/css">
+    <link href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type="text/css">
     <!-- Google fonts loaded -->
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css">
@@ -27,10 +27,12 @@
             <p class="bottom">(416) 777-2343</p>
           </li>
           <li>
-            <img class="left-bird" src="images/left-bird.png">
-            <img class="logo" src="images/logo.png">
+            <img class="left-no-ani" src="images/left-bird.png">
+            <a href="index.html">
+              <img class="logo" src="images/logo.png">
+            </a>
             <img class="music-note" src="images/music-note.png">
-            <img class="right-bird" src="images/right-bird.png">
+            <img class="right-no-ani" src="images/right-bird.png">
           </li>
           <li>
             <h3 class="top">Our Hours</h3>
@@ -65,8 +67,11 @@
         <div class="content about-content">
           <h2>About Sadie's Diner</h2>
           <p>Since 2006 Sadie's Diner And Juice Bar has been serving up all your favorite traditional comfort foods, updated. Along with our vegetarian menu we offer fair-trade, organic coffee and a wide range of fresh juices and smoothies made with real fruit and available with protein boosts. Our eggs are free-run, our milk and cream is organic, our cheese is rennet-free and we offer vegan alternatives to all of these. Every Wednesday our coffee is 25 cents before noon. All of our take-out containers are 100% compostable and may be deposited in your green bin.</p>
-          <p>Sadie's Diner offers a warm, friendly place to meet your friends or make new ones. We are involved in our community and our neighbourhood through special events such as our bi-monthly chili-for-charity nights, our art shows and our discounts for community group members. Come check out our wall of Pez.</p>
-          <a class="fancybox" rel="group" href="images/old.jpg">Blah</a>
+          <p class="last-paragraph">Sadie's Diner offers a warm, friendly place to meet your friends or make new ones. We are involved in our community and our neighbourhood through special events such as our bi-monthly chili-for-charity nights, our art shows and our discounts for community group members. Come check out our wall of Pez.</p>
+          <a class="button fancybox" href="./images/old.jpg">Check out the old and new!</a>
+          <div class="hidden">
+            <a class="fancybox" href="./images/new.jpg"></a>
+          </div>
         </div>
       </div>
       <div class="page-list">
@@ -96,13 +101,12 @@
       <p>Web Design and Development:<a href="http://www.jaredphillips.io"> Jared Phillips</a></p>
     </footer>
     <!-- jQuery Load -->
-    <script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Load Fancybox -->
+    <script src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5" type="text/javascript"></script>
     <!-- Slick slider load -->
     <script src="slick/slick.min.js" type="text/javascript"></script>
     <script src="js/min/script.min.js" type="text/javascript"></script>
-    <!-- Load Fancybox -->
-    <script src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5" type="text/javascript"></script>
     <!-- Loading my scripts -->
     <script src="js/script.js" type="text/javascript"></script>
   </body>
