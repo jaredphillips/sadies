@@ -670,11 +670,11 @@
       "id": "c66c1561",
       "pid": "8b3c5ce5",
       "path": "images/creampaper.png",
-      "size": 12618,
+      "size": 11782,
       "name": "creampaper.png",
       "type": "Png",
       "initialSize": 12618,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "47de9b3f": {
       "id": "47de9b3f",
@@ -684,7 +684,7 @@
       "name": "knitting.png",
       "type": "Png",
       "initialSize": 12669,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "15d64440": {
       "id": "15d64440",
@@ -694,17 +694,177 @@
       "name": "p5.png",
       "type": "Png",
       "initialSize": 135,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "928e834f": {
       "id": "928e834f",
       "pid": "8b3c5ce5",
       "path": "images/streetview.jpg",
-      "size": 397037,
+      "size": 397086,
       "name": "streetview.jpg",
       "type": "Jpg",
       "initialSize": 397037,
+      "status": "OPTIMIZED"
+    },
+    "c7c377d6": {
+      "id": "c7c377d6",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/1_b.jpg",
+      "size": 82080,
+      "name": "1_b.jpg",
+      "type": "Jpg",
+      "initialSize": 82080,
       "status": "NOT_OPTIMIZED"
+    },
+    "1e1f34e1": {
+      "id": "1e1f34e1",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/1_s.jpg",
+      "size": 8097,
+      "name": "1_s.jpg",
+      "type": "Jpg",
+      "initialSize": 8097,
+      "status": "OPTIMIZED"
+    },
+    "424ec73f": {
+      "id": "424ec73f",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/2_b.jpg",
+      "size": 51674,
+      "name": "2_b.jpg",
+      "type": "Jpg",
+      "initialSize": 51674,
+      "status": "OPTIMIZED"
+    },
+    "486e83a2": {
+      "id": "486e83a2",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/2_s.jpg",
+      "size": 1455,
+      "name": "2_s.jpg",
+      "type": "Jpg",
+      "initialSize": 1455,
+      "status": "OPTIMIZED"
+    },
+    "56747a70": {
+      "id": "56747a70",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/3_b.jpg",
+      "size": 55777,
+      "name": "3_b.jpg",
+      "type": "Jpg",
+      "initialSize": 55777,
+      "status": "OPTIMIZED"
+    },
+    "5bdfe969": {
+      "id": "5bdfe969",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/3_s.jpg",
+      "size": 2543,
+      "name": "3_s.jpg",
+      "type": "Jpg",
+      "initialSize": 2543,
+      "status": "OPTIMIZED"
+    },
+    "298b4af5": {
+      "id": "298b4af5",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/4_b.jpg",
+      "size": 84150,
+      "name": "4_b.jpg",
+      "type": "Jpg",
+      "initialSize": 84150,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f5eb435": {
+      "id": "9f5eb435",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/4_s.jpg",
+      "size": 5203,
+      "name": "4_s.jpg",
+      "type": "Jpg",
+      "initialSize": 5203,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cc62e33b": {
+      "id": "cc62e33b",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/5_b.jpg",
+      "size": 76217,
+      "name": "5_b.jpg",
+      "type": "Jpg",
+      "initialSize": 76217,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e1122c96": {
+      "id": "e1122c96",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/demo/5_s.jpg",
+      "size": 4412,
+      "name": "5_s.jpg",
+      "type": "Jpg",
+      "initialSize": 4412,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f5828a5b": {
+      "id": "f5828a5b",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/source/fancybox_overlay.png",
+      "size": 1003,
+      "name": "fancybox_overlay.png",
+      "type": "Png",
+      "initialSize": 1003,
+      "status": "NOT_OPTIMIZED"
+    },
+    "87f2d16e": {
+      "id": "87f2d16e",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/source/fancybox_sprite.png",
+      "size": 1362,
+      "name": "fancybox_sprite.png",
+      "type": "Png",
+      "initialSize": 1362,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3a511398": {
+      "id": "3a511398",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/source/fancybox_sprite@2x.png",
+      "size": 6553,
+      "name": "fancybox_sprite@2x.png",
+      "type": "Png",
+      "initialSize": 6553,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38ae24c4": {
+      "id": "38ae24c4",
+      "pid": "8b3c5ce5",
+      "path": "fancybox/source/helpers/fancybox_buttons.png",
+      "size": 1080,
+      "name": "fancybox_buttons.png",
+      "type": "Png",
+      "initialSize": 1080,
+      "status": "OPTIMIZED"
+    },
+    "e215b9fa": {
+      "id": "e215b9fa",
+      "pid": "8b3c5ce5",
+      "path": "images/new.jpg",
+      "size": 138236,
+      "name": "new.jpg",
+      "type": "Jpg",
+      "initialSize": 140240,
+      "status": "OPTIMIZED"
+    },
+    "84bc9dca": {
+      "id": "84bc9dca",
+      "pid": "8b3c5ce5",
+      "path": "images/old.jpg",
+      "size": 82494,
+      "name": "old.jpg",
+      "type": "Jpg",
+      "initialSize": 86289,
+      "status": "OPTIMIZED"
     }
   },
   "config": {
