@@ -1,7 +1,7 @@
 .main-content-container {
 	margin-top: 50px;
-	height: auto;
 	.content {
+		height: 100%;
 		width: 85%;
 		margin: 0 auto;
 	  border: 3px solid $darker-blue;
@@ -56,15 +56,19 @@ p.last-paragraph {
 	margin-bottom: 80px;
 }
 
+// End of base styles
+
+// About us page
+
 a.button {
 	position: relative;
-	left: 34%;
+	left: 32%;
 	border-radius: 5px;
-	background: #9BD8EB;
+	background: $off-white;
 	text-decoration: none;
 	width: 240px;
 	padding: 7px;
-	font-family: 'Grand Hotel', serif;
+	font-family: 'Lato', serif;
 	font-size: 21px;
 	transition: .5s;
 	border: 1px solid $red;
@@ -75,34 +79,40 @@ a.button {
 	}
 }
 
-.hidden {
+a.hidden {
   display: none;
 }
 
+// About us page ends
+
 // Charity
 
-.side {
-	margin-top: 80px;
-	padding: 10px;
-	background: url(../images/fabric.png);
-	border: 1px solid $lighter-blue;
-	border-radius: 10px;
-	width: 35%;
-	float: right;
-	height: 100%;
-	text-align: center;
+section {
+  margin-left: 2%; 
+  width: 58%;
+  float: right;
 }
-.main {
-	width: 60%;
-	a.bottom-link {
-		color: $red;
-		transition: .8s;
-		&:hover {
-			color: $darker-blue;
-			transition: .8s;
+aside {
+	margin-top: 100px;
+  margin-right: 2%;
+  width: 38%;
+  .chili-explanation {
+  	background: white;
+  	padding: 15px;
+  	border-radius: 8px;
+  	border: 3px solid $red;
+  	text-align: center;
+  	h3.title {
+  		font-size: 1.8em;
 		}
-	}
+  }
+  .side-pic {
+
+  	a {
+  		.pez-wall {
+  			margin-top: 30px;
+  			width: 350px;
+  		}
+  	}
+  }
 }
-
-
-

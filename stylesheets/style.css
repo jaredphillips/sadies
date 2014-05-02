@@ -734,10 +734,10 @@ img.slides {
 /* line 1, _main-container.scss */
 .main-content-container {
   margin-top: 50px;
-  height: auto;
 }
-/* line 4, _main-container.scss */
+/* line 3, _main-container.scss */
 .main-content-container .content {
+  height: 100%;
   width: 85%;
   margin: 0 auto;
   border: 3px solid #9bd8eb;
@@ -798,58 +798,61 @@ p.last-paragraph {
   margin-bottom: 80px;
 }
 
-/* line 59, _main-container.scss */
+/* line 63, _main-container.scss */
 a.button {
   position: relative;
-  left: 34%;
+  left: 32%;
   border-radius: 5px;
-  background: #9BD8EB;
+  background: #f9f5f2;
   text-decoration: none;
   width: 240px;
   padding: 7px;
-  font-family: 'Grand Hotel', serif;
+  font-family: 'Lato', serif;
   font-size: 21px;
   transition: .5s;
   border: 1px solid #d4320b;
   text-align: center;
 }
-/* line 72, _main-container.scss */
+/* line 76, _main-container.scss */
 a.button:hover {
   background: white;
   border: 1px solid #A7E1F1;
 }
 
-/* line 78, _main-container.scss */
-.hidden {
+/* line 82, _main-container.scss */
+a.hidden {
   display: none;
 }
 
-/* line 84, _main-container.scss */
-.side {
-  margin-top: 80px;
-  padding: 10px;
-  background: url(../images/fabric.png);
-  border: 1px solid #a7e1f1;
-  border-radius: 10px;
-  width: 35%;
+/* line 90, _main-container.scss */
+section {
+  margin-left: 2%;
+  width: 58%;
   float: right;
-  height: 100%;
-  text-align: center;
 }
 
 /* line 95, _main-container.scss */
-.main {
-  width: 60%;
+aside {
+  margin-top: 100px;
+  margin-right: 2%;
+  width: 38%;
 }
-/* line 97, _main-container.scss */
-.main a.bottom-link {
-  color: #d4320b;
-  transition: .8s;
+/* line 99, _main-container.scss */
+aside .chili-explanation {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 3px solid #d4320b;
+  text-align: center;
 }
-/* line 100, _main-container.scss */
-.main a.bottom-link:hover {
-  color: #9bd8eb;
-  transition: .8s;
+/* line 105, _main-container.scss */
+aside .chili-explanation h3.title {
+  font-size: 1.8em;
+}
+/* line 112, _main-container.scss */
+aside .side-pic a .pez-wall {
+  margin-top: 30px;
+  width: 350px;
 }
 
 /* line 1, _top-footer.scss */

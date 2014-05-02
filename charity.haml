@@ -53,13 +53,8 @@
 						%a.page-link{ href: "contact.html" } Contact
 
 			.main-content-container
-				.content
-					.side
-						%h3 What is Chili-for-Charity?
-						%p On a bi-monthly basis, Sadie's Diner presents Chili-for-Charity: a night where all proceeds go towards a worthy local cause.
-						%p A suggested donation of $10 gets you all-you-can-eat vegan chili (served with chips).
-						%p Please send any inquiries/charity recommendations to: <a href="mailto:info@sadiesdiner.com"> info@sadiesdiner.com</a>
-					.main
+				.content.clearfix
+					%section
 						%h2 upcoming events
 						%h3 Tuesday, June 18th, 2013 -- Hershey Anti-BSL Group: 
 						%p Hershey’s Anti-BSL Group is a non-profit Ontario based “grassroots” initiative aimed at removing Breed Specific Legislation (BSL) through public awareness, education and political activism while promoting responsible dog ownership. Their mandate is to restore fair and equal treatment for all dog owners. Find out more about them here, <a href="http://supporthersheysbill.com/">Support Hersheys Bill</a>
@@ -75,6 +70,16 @@
 						%p For 23 years Nicole Joncas, now 67, has been running Teja's Animal Refuge. It has been home to hundreds of abused and abandonned animals of all shapes and sizes. Check out her website <a href="http://tejasanimalrefuge.ca/">here</a>.
 
 						%h3 Check out our <a class="bottom-link" href="https://www.facebook.com/pages/Sadies-Diner-And-Juice-Bar/221474964545386">Facebook Page</a> to see all past & upcoming events at Sadie's Diner!
+					%aside
+						.chili-explanation
+							%h3.title What is Chili-for-Charity?
+							%p On a bi-monthly basis, Sadie's Diner presents Chili-for-Charity: a night where all proceeds go towards a worthy local cause.
+							%p A suggested donation of $10 gets you all-you-can-eat vegan chili (served with chips).
+							%p Please send any inquiries/charity recommendations to: <a href="mailto:info@sadiesdiner.com"> info@sadiesdiner.com</a>
+						.side-pic
+							%a{ class: "fancybox", href: "./images/pez-wall-large.jpg" }
+								%img.pez-wall{ src: "./images/pez-wall.jpg" }
+							%p click to expand
 
 			.page-list
 				%ul
