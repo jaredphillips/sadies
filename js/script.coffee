@@ -17,9 +17,5 @@ $('.food').slick (
   pauseOnHover: false
 )
 
-$('.artists').slick(
-  centerMode: true
-)
-
 
 

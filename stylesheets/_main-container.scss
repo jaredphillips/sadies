@@ -107,7 +107,6 @@ aside {
 		}
   }
   .side-pic {
-
   	a {
   		.pez-wall {
   			margin-top: 30px;
@@ -118,11 +117,18 @@ aside {
 }
 
 // Artshow 
-
 .artists {
-	margin: 0 auto;
-	width: 80%;
-	art {
-		margin: 0 auto;
+	width: 100%;
+	.row-one {
+		margin-left: 7.2%;
+		margin-right: 7.2%;
+	}
+	.row-two {
+		margin-left: 7.2%;
+		margin-right: 7.2%;
+	}
+	.row-three {
+		margin-left: 7.2%;
+		margin-right: 7.2%;
 	}
 }

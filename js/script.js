@@ -22,8 +22,4 @@
     pauseOnHover: false
   });
 
-  $('.artists').slick({
-    centerMode: true
-  });
-
 }).call(this);
