@@ -678,21 +678,23 @@ img.slides {
   display: block;
   margin: 0 auto;
   border: 15px solid #a7e1f1;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 10, _slider-home.scss */
+/* line 14, _slider-home.scss */
 .page-list {
   height: 200px;
   width: 100%;
   margin: 10px auto;
 }
-/* line 14, _slider-home.scss */
+/* line 18, _slider-home.scss */
 .page-list ul {
   list-style-type: none;
   width: 80%;
   margin: 0 auto;
 }
-/* line 18, _slider-home.scss */
+/* line 22, _slider-home.scss */
 .page-list ul li {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -703,7 +705,7 @@ img.slides {
   float: left;
   text-align: center;
 }
-/* line 28, _slider-home.scss */
+/* line 32, _slider-home.scss */
 .page-list ul .one {
   border-right: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
@@ -712,17 +714,17 @@ img.slides {
   letter-spacing: 0.05em;
   color: #2b2b27;
 }
-/* line 35, _slider-home.scss */
+/* line 39, _slider-home.scss */
 .page-list ul .one span {
   text-decoration: underline;
   color: #d4320b;
 }
-/* line 41, _slider-home.scss */
+/* line 45, _slider-home.scss */
 .page-list ul .two img {
   height: 220px;
   border-radius: 10px;
 }
-/* line 46, _slider-home.scss */
+/* line 50, _slider-home.scss */
 .page-list ul .three {
   border-left: 3px solid #a7e1f1;
   font-family: 'Lato', sans-serif;
@@ -853,6 +855,16 @@ aside .chili-explanation h3.title {
 aside .side-pic a .pez-wall {
   margin-top: 30px;
   width: 350px;
+}
+
+/* line 122, _main-container.scss */
+.artists {
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 125, _main-container.scss */
+.artists art {
+  margin: 0 auto;
 }
 
 /* line 1, _top-footer.scss */

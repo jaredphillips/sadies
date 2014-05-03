@@ -714,7 +714,7 @@
       "name": "1_b.jpg",
       "type": "Jpg",
       "initialSize": 82080,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "1e1f34e1": {
       "id": "1e1f34e1",
@@ -774,7 +774,7 @@
       "name": "4_b.jpg",
       "type": "Jpg",
       "initialSize": 84150,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "9f5eb435": {
       "id": "9f5eb435",
@@ -784,7 +784,7 @@
       "name": "4_s.jpg",
       "type": "Jpg",
       "initialSize": 5203,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "cc62e33b": {
       "id": "cc62e33b",
@@ -794,7 +794,7 @@
       "name": "5_b.jpg",
       "type": "Jpg",
       "initialSize": 76217,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "e1122c96": {
       "id": "e1122c96",
@@ -804,7 +804,7 @@
       "name": "5_s.jpg",
       "type": "Jpg",
       "initialSize": 4412,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "f5828a5b": {
       "id": "f5828a5b",
@@ -814,7 +814,7 @@
       "name": "fancybox_overlay.png",
       "type": "Png",
       "initialSize": 1003,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "87f2d16e": {
       "id": "87f2d16e",
@@ -824,17 +824,17 @@
       "name": "fancybox_sprite.png",
       "type": "Png",
       "initialSize": 1362,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "3a511398": {
       "id": "3a511398",
       "pid": "8b3c5ce5",
       "path": "fancybox/source/fancybox_sprite@2x.png",
-      "size": 6553,
+      "size": 6545,
       "name": "fancybox_sprite@2x.png",
       "type": "Png",
       "initialSize": 6553,
-      "status": "NOT_OPTIMIZED"
+      "status": "OPTIMIZED"
     },
     "38ae24c4": {
       "id": "38ae24c4",

@@ -5,7 +5,11 @@ img.slides {
 	display: block;
 	margin: 0 auto;
 	border: 15px solid $lighter-blue;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset
 }
+
+
 
 .page-list {
 	height: 200px;
