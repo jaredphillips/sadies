@@ -55,17 +55,18 @@
 						%a.page-link.active{ href: "contact.html" } Contact
 
 			.main-content-container
-				.food
-					%div
-						%img.slides{ src: "images/1food.jpg" }
-					%div
-						%img.slides{ src: "images/2food.jpg" }
-					%div
-						%img.slides{ src: "images/3food.jpg" }
-					%div
-						%img.slides{ src: "images/4food.jpg" }
-					%div
-						%img.slides{ src: "images/5food.jpg" }
+				.content
+					%h2 Contact Us
+					.map
+						%iframe{ src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2887.1155125363794!2d-79.400779!3d43.645765!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34de7a55ff33%3A0x448cc88be1a1617c!2sSadies+Diner+%26+Juice+Bar!5e0!3m2!1sen!2sca!4v1399143673772", width: "550", height: "450", frameborder: "0", style: "border:0" }
+					.contact
+						%h3 Phone
+						%p (416) 777-2343
+						%h3 Portland & Adelaide
+						%p 504 Adelaide Street West Toronto, ON M5V 1T5
+						%a.button{ href: "mailto:info@sadiesdiner.com"} info@sadiesdiner.com
+						%a{ href: "https://twitter.com/sadiesdiner", target: "_blank" }
+							%img.twitter{ src: "./images/twitter.png" }
 
 			.page-list
 				%ul

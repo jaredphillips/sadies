@@ -876,6 +876,50 @@ aside .side-pic a .pez-wall {
   margin-right: 7.2%;
 }
 
+/* line 144, _main-container.scss */
+.map {
+  display: inline;
+}
+
+/* line 148, _main-container.scss */
+.contact {
+  text-align: center;
+  background: white;
+  padding: 2%;
+  width: 32%;
+  float: right;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 3px solid #d4320b;
+}
+/* line 158, _main-container.scss */
+.contact h3 {
+  border-bottom: 1px solid #9bd8eb;
+  padding-bottom: 3px;
+}
+/* line 165, _main-container.scss */
+.contact a.button {
+  border: 1px solid #a7e1f1;
+  background: white;
+  color: #d4320b;
+  top: 10px;
+  left: 0;
+}
+/* line 171, _main-container.scss */
+.contact a.button:hover {
+  background: #9bd8eb;
+  color: white;
+}
+/* line 176, _main-container.scss */
+.contact img.twitter {
+  margin-top: 40px;
+}
+/* line 178, _main-container.scss */
+.contact img.twitter:hover {
+  opacity: .5;
+}
+
 /* line 1, _top-footer.scss */
 .top-footer-wrapper {
   position: absolute;

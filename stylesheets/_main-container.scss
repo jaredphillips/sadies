@@ -132,3 +132,58 @@ aside {
 		margin-right: 7.2%;
 	}
 }
+
+// Artshow finish
+
+// Menu start
+
+// Menu finish
+
+// Contact Start
+
+.map {
+	display: inline;
+}
+
+.contact {
+	text-align: center;
+	background: white;
+	padding: 2%;
+	width: 32%;
+	float: right;
+	height: 400px;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 3px solid $red;	
+	h3 {
+		border-bottom: 1px solid $darker-blue;
+		padding-bottom: 3px;
+	}
+	p {
+
+	}
+	a.button {
+		border: 1px solid $lighter-blue;
+		background: white;
+		color: $red;
+		top: 10px;
+		left: 0;
+		&:hover {
+			background: $darker-blue;
+			color: white;
+		}
+	}
+	img.twitter {
+		margin-top: 40px;
+		&:hover {
+			opacity: .5;
+		}
+	}
+}
+
+
+// Contact finish
+
+
+
+
