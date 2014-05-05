@@ -55,18 +55,32 @@
 						%a.page-link{ href: "contact.html" } Contact
 
 			.main-content-container
-				.food
-					%div
-						%img.slides{ src: "images/1food.jpg" }
-					%div
-						%img.slides{ src: "images/2food.jpg" }
-					%div
-						%img.slides{ src: "images/3food.jpg" }
-					%div
-						%img.slides{ src: "images/4food.jpg" }
-					%div
-						%img.slides{ src: "images/5food.jpg" }
+				.content
+					%h2 Our Menu
+					.specials
+						%p Sadie’s uses only free-run eggs, organic milk and cream, and rennet-free cheese
+						%p Our kitchen prepares dishes and drinks which contain peanuts and other nuts.
+					.bird-cage
+						%ul	
+							%li.float
+								%a.fancybox{ href: "images/menu/menu1.jpg" }
+									%img{ src: "./images/leftspeechbubble.png" }
+									%a.hidden.fancybox{ href: "images/menu/menu1.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu2.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu3.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu4.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu5.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu6.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu7.jpg" }
+									%a.hidden.fancybox{ href: "images/menu/menu8.jpg" }
 
+								/ %a.button.fancybox{ href: "images/old.jpg" } Check out the past to the present!
+								/ %a.hidden.fancybox{ href: "images/mid.jpg" }
+								/ %a.hidden.fancybox{ href: "images/new.jpg" }
+
+							%li.float
+								%a{ href: "images/menu/sadies-complete-menu.pdf"}
+									%img.right-menu-bubble{ src: "./images/rightspeechbubble.png" }
 			.page-list
 				%ul
 					%li.one 

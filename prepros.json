@@ -403,9 +403,37 @@
       "parents": [
         "a588af7f"
       ]
+    },
+    "25c126cd": {
+      "id": "25c126cd",
+      "pid": "8b3c5ce5",
+      "path": "stylesheets/_ribbon.scss",
+      "parents": [
+        "a588af7f"
+      ]
     }
   },
   "images": {
+    "18162304": {
+      "id": "18162304",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/troy_brooks_1.jpg",
+      "size": 36115,
+      "name": "troy_brooks_1.jpg",
+      "type": "Jpg",
+      "initialSize": 36115,
+      "status": "NOT_OPTIMIZED"
+    },
+    "51822255": {
+      "id": "51822255",
+      "pid": "8b3c5ce5",
+      "path": "images/rightspeechbubble.png",
+      "size": 20884,
+      "name": "rightspeechbubble.png",
+      "type": "Png",
+      "initialSize": 20884,
+      "status": "NOT_OPTIMIZED"
+    },
     "829a76c6": {
       "id": "829a76c6",
       "pid": "8b3c5ce5",
@@ -456,16 +484,6 @@
       "initialSize": 66513,
       "status": "OPTIMIZED"
     },
-    "a3a22116": {
-      "id": "a3a22116",
-      "pid": "8b3c5ce5",
-      "path": "images/down_arrow.png",
-      "size": 458,
-      "name": "down_arrow.png",
-      "type": "Png",
-      "initialSize": 458,
-      "status": "OPTIMIZED"
-    },
     "94c9bebc": {
       "id": "94c9bebc",
       "pid": "8b3c5ce5",
@@ -504,46 +522,6 @@
       "name": "floral.png",
       "type": "Png",
       "initialSize": 6162,
-      "status": "OPTIMIZED"
-    },
-    "f5486301": {
-      "id": "f5486301",
-      "pid": "8b3c5ce5",
-      "path": "images/food-five.jpg",
-      "size": 119647,
-      "name": "food-five.jpg",
-      "type": "Jpg",
-      "initialSize": 132244,
-      "status": "OPTIMIZED"
-    },
-    "a916f016": {
-      "id": "a916f016",
-      "pid": "8b3c5ce5",
-      "path": "images/food-four.jpg",
-      "size": 191752,
-      "name": "food-four.jpg",
-      "type": "Jpg",
-      "initialSize": 216364,
-      "status": "OPTIMIZED"
-    },
-    "f8e936be": {
-      "id": "f8e936be",
-      "pid": "8b3c5ce5",
-      "path": "images/food-one.jpg",
-      "size": 196862,
-      "name": "food-one.jpg",
-      "type": "Jpg",
-      "initialSize": 204232,
-      "status": "OPTIMIZED"
-    },
-    "8ba51b50": {
-      "id": "8ba51b50",
-      "pid": "8b3c5ce5",
-      "path": "images/food-two.jpg",
-      "size": 119647,
-      "name": "food-two.jpg",
-      "type": "Jpg",
-      "initialSize": 132244,
       "status": "OPTIMIZED"
     },
     "304fcb78": {
@@ -865,6 +843,366 @@
       "type": "Jpg",
       "initialSize": 86289,
       "status": "OPTIMIZED"
+    },
+    "86dd8649": {
+      "id": "86dd8649",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/alex_davey_1.jpg",
+      "size": 44626,
+      "name": "alex_davey_1.jpg",
+      "type": "Jpg",
+      "initialSize": 44626,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fdd6fb34": {
+      "id": "fdd6fb34",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/alex_davey_2.jpg",
+      "size": 39844,
+      "name": "alex_davey_2.jpg",
+      "type": "Jpg",
+      "initialSize": 39844,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8d1e9a85": {
+      "id": "8d1e9a85",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/freshdiscoporkergas.jpg",
+      "size": 66455,
+      "name": "freshdiscoporkergas.jpg",
+      "type": "Jpg",
+      "initialSize": 66455,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f25f77dc": {
+      "id": "f25f77dc",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/gerry_smith.jpg",
+      "size": 109939,
+      "name": "gerry_smith.jpg",
+      "type": "Jpg",
+      "initialSize": 109939,
+      "status": "NOT_OPTIMIZED"
+    },
+    "baa22e69": {
+      "id": "baa22e69",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/gerry_smith_1.jpg",
+      "size": 72303,
+      "name": "gerry_smith_1.jpg",
+      "type": "Jpg",
+      "initialSize": 72303,
+      "status": "NOT_OPTIMIZED"
+    },
+    "910b2a72": {
+      "id": "910b2a72",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/gerry_smith_2.jpg",
+      "size": 109939,
+      "name": "gerry_smith_2.jpg",
+      "type": "Jpg",
+      "initialSize": 109939,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e2582f7a": {
+      "id": "e2582f7a",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/johanna_1.jpg",
+      "size": 86441,
+      "name": "johanna_1.jpg",
+      "type": "Jpg",
+      "initialSize": 86441,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f8cccc0c": {
+      "id": "f8cccc0c",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/johanna_2.jpg",
+      "size": 74577,
+      "name": "johanna_2.jpg",
+      "type": "Jpg",
+      "initialSize": 74577,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f886ce6a": {
+      "id": "f886ce6a",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/karina_1.jpg",
+      "size": 45467,
+      "name": "karina_1.jpg",
+      "type": "Jpg",
+      "initialSize": 45467,
+      "status": "NOT_OPTIMIZED"
+    },
+    "140c651f": {
+      "id": "140c651f",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/karina_2.jpg",
+      "size": 91083,
+      "name": "karina_2.jpg",
+      "type": "Jpg",
+      "initialSize": 91083,
+      "status": "NOT_OPTIMIZED"
+    },
+    "907c1508": {
+      "id": "907c1508",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/michael_dent_g20.jpg",
+      "size": 87007,
+      "name": "michael_dent_g20.jpg",
+      "type": "Jpg",
+      "initialSize": 87007,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1253663": {
+      "id": "d1253663",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/michael_dent_lock.jpg",
+      "size": 75387,
+      "name": "michael_dent_lock.jpg",
+      "type": "Jpg",
+      "initialSize": 75387,
+      "status": "NOT_OPTIMIZED"
+    },
+    "194e30ac": {
+      "id": "194e30ac",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/rae_maxwell.jpg",
+      "size": 114814,
+      "name": "rae_maxwell.jpg",
+      "type": "Jpg",
+      "initialSize": 114814,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f9d7f54d": {
+      "id": "f9d7f54d",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/alex_davey_1_small.jpg",
+      "size": 7795,
+      "name": "alex_davey_1_small.jpg",
+      "type": "Jpg",
+      "initialSize": 7795,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f746c943": {
+      "id": "f746c943",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/alex_davey_2_small.jpg",
+      "size": 9468,
+      "name": "alex_davey_2_small.jpg",
+      "type": "Jpg",
+      "initialSize": 9468,
+      "status": "NOT_OPTIMIZED"
+    },
+    "aa762bf3": {
+      "id": "aa762bf3",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/freshdiscoporkergas_small.jpg",
+      "size": 6728,
+      "name": "freshdiscoporkergas_small.jpg",
+      "type": "Jpg",
+      "initialSize": 6728,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4633fbba": {
+      "id": "4633fbba",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/gerry_smith_1_small.jpg",
+      "size": 7517,
+      "name": "gerry_smith_1_small.jpg",
+      "type": "Jpg",
+      "initialSize": 7517,
+      "status": "NOT_OPTIMIZED"
+    },
+    "43cbdad0": {
+      "id": "43cbdad0",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/gerry_smith_2_small.jpg",
+      "size": 10045,
+      "name": "gerry_smith_2_small.jpg",
+      "type": "Jpg",
+      "initialSize": 10045,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4581bed3": {
+      "id": "4581bed3",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/johanna_1_small.jpg",
+      "size": 7494,
+      "name": "johanna_1_small.jpg",
+      "type": "Jpg",
+      "initialSize": 7494,
+      "status": "NOT_OPTIMIZED"
+    },
+    "17d8e238": {
+      "id": "17d8e238",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/johanna_2_small.jpg",
+      "size": 8295,
+      "name": "johanna_2_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8295,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2fea1c3c": {
+      "id": "2fea1c3c",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/karina_1_small.jpg",
+      "size": 5255,
+      "name": "karina_1_small.jpg",
+      "type": "Jpg",
+      "initialSize": 5255,
+      "status": "NOT_OPTIMIZED"
+    },
+    "721afe9f": {
+      "id": "721afe9f",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/karina_2_small.jpg",
+      "size": 9607,
+      "name": "karina_2_small.jpg",
+      "type": "Jpg",
+      "initialSize": 9607,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f0ca8e29": {
+      "id": "f0ca8e29",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/michael_dent_g20_small.jpg",
+      "size": 6919,
+      "name": "michael_dent_g20_small.jpg",
+      "type": "Jpg",
+      "initialSize": 6919,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cc778138": {
+      "id": "cc778138",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/michael_dent_lock_small.jpg",
+      "size": 5032,
+      "name": "michael_dent_lock_small.jpg",
+      "type": "Jpg",
+      "initialSize": 5032,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5ac2e56e": {
+      "id": "5ac2e56e",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/rae_maxwell_small.jpg",
+      "size": 8426,
+      "name": "rae_maxwell_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8426,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9dd2a4b0": {
+      "id": "9dd2a4b0",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/snooters_small.jpg",
+      "size": 8035,
+      "name": "snooters_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8035,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fcd0ae89": {
+      "id": "fcd0ae89",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/troy_brookes_2_small.jpg",
+      "size": 7524,
+      "name": "troy_brookes_2_small.jpg",
+      "type": "Jpg",
+      "initialSize": 7524,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9a5d492e": {
+      "id": "9a5d492e",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/small/troy_brooks_1_small.jpg",
+      "size": 7179,
+      "name": "troy_brooks_1_small.jpg",
+      "type": "Jpg",
+      "initialSize": 7179,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8603c403": {
+      "id": "8603c403",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/snooters.jpg",
+      "size": 90036,
+      "name": "snooters.jpg",
+      "type": "Jpg",
+      "initialSize": 90036,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b8acb510": {
+      "id": "b8acb510",
+      "pid": "8b3c5ce5",
+      "path": "images/artshow/troy_brookes_2.jpg",
+      "size": 57541,
+      "name": "troy_brookes_2.jpg",
+      "type": "Jpg",
+      "initialSize": 57541,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a4a40901": {
+      "id": "a4a40901",
+      "pid": "8b3c5ce5",
+      "path": "images/leftspeechbubble.png",
+      "size": 17125,
+      "name": "leftspeechbubble.png",
+      "type": "Png",
+      "initialSize": 17125,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d4482209": {
+      "id": "d4482209",
+      "pid": "8b3c5ce5",
+      "path": "images/mid.jpg",
+      "size": 82358,
+      "name": "mid.jpg",
+      "type": "Jpg",
+      "initialSize": 82358,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8fda45cc": {
+      "id": "8fda45cc",
+      "pid": "8b3c5ce5",
+      "path": "images/pez-wall-large.jpg",
+      "size": 88247,
+      "name": "pez-wall-large.jpg",
+      "type": "Jpg",
+      "initialSize": 88247,
+      "status": "NOT_OPTIMIZED"
+    },
+    "de089b81": {
+      "id": "de089b81",
+      "pid": "8b3c5ce5",
+      "path": "images/pez-wall.jpg",
+      "size": 253371,
+      "name": "pez-wall.jpg",
+      "type": "Jpg",
+      "initialSize": 253371,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6ead6899": {
+      "id": "6ead6899",
+      "pid": "8b3c5ce5",
+      "path": "images/speechbubble.png",
+      "size": 11888,
+      "name": "speechbubble.png",
+      "type": "Png",
+      "initialSize": 11888,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cfd583e2": {
+      "id": "cfd583e2",
+      "pid": "8b3c5ce5",
+      "path": "images/twitter.png",
+      "size": 2476,
+      "name": "twitter.png",
+      "type": "Png",
+      "initialSize": 2476,
+      "status": "NOT_OPTIMIZED"
     }
   },
   "config": {

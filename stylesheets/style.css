@@ -501,29 +501,30 @@ header {
 
 /* line 1, _main-callout.scss */
 .main-callout {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 /* line 4, _main-callout.scss */
 .main-callout ul {
+  height: auto;
   list-style-type: none;
 }
-/* line 6, _main-callout.scss */
+/* line 7, _main-callout.scss */
 .main-callout ul li {
-  height: 188px;
   float: left;
+  height: 100px;
   width: 28%;
   text-align: center;
   margin: 0 2% 0 2%;
 }
-/* line 12, _main-callout.scss */
+/* line 13, _main-callout.scss */
 .main-callout ul li h3 {
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 1.9px;
   font-family: 'Grand Hotel', 'cursive';
   color: #d4320b;
 }
-/* line 18, _main-callout.scss */
+/* line 19, _main-callout.scss */
 .main-callout ul li p {
   font-family: 'Lato', 'sans-serif';
   line-height: 1.555;
@@ -531,7 +532,7 @@ header {
   font-weight: 300;
 }
 
-/* line 28, _main-callout.scss */
+/* line 29, _main-callout.scss */
 .top {
   padding-bottom: 5px;
   border-bottom: 2px solid #9bd8eb;
@@ -539,13 +540,13 @@ header {
   margin: 5px;
 }
 
-/* line 35, _main-callout.scss */
+/* line 36, _main-callout.scss */
 .middle {
   display: block;
   margin: -1px;
 }
 
-/* line 40, _main-callout.scss */
+/* line 41, _main-callout.scss */
 .bottom {
   display: block;
   margin: 5px;
@@ -553,7 +554,7 @@ header {
   border-top: 2px solid #9bd8eb;
 }
 
-/* line 47, _main-callout.scss */
+/* line 48, _main-callout.scss */
 .left-bird {
   position: relative;
   top: -130px;
@@ -561,21 +562,21 @@ header {
   -webkit-animation: bird-from-left 3s linear;
 }
 
-/* line 54, _main-callout.scss */
+/* line 55, _main-callout.scss */
 .left-no-ani {
   position: relative;
   top: -130px;
   left: -150px;
 }
 
-/* line 60, _main-callout.scss */
+/* line 61, _main-callout.scss */
 .right-no-ani {
   position: relative;
   top: -347px;
   left: 135px;
 }
 
-/* line 66, _main-callout.scss */
+/* line 67, _main-callout.scss */
 .logo {
   position: relative;
   top: -210px;
@@ -585,7 +586,7 @@ header {
   max-width: 100%;
 }
 
-/* line 75, _main-callout.scss */
+/* line 76, _main-callout.scss */
 .music-note {
   position: relative;
   top: -362px;
@@ -597,7 +598,7 @@ header {
   -webkit-animation-delay: 3.4s;
 }
 
-/* line 86, _main-callout.scss */
+/* line 87, _main-callout.scss */
 .right-bird {
   position: relative;
   top: -347px;
@@ -605,21 +606,21 @@ header {
   -webkit-animation: bird-from-right 3.4s linear;
 }
 
-/* line 93, _main-callout.scss */
+/* line 94, _main-callout.scss */
 .left-bird-no-ani {
   position: relative;
   top: -130px;
   left: -150px;
 }
 
-/* line 99, _main-callout.scss */
+/* line 100, _main-callout.scss */
 .right-bird-no-ani {
   position: relative;
   top: -347px;
   left: 135px;
 }
 
-/* line 105, _main-callout.scss */
+/* line 106, _main-callout.scss */
 .email {
   text-decoration: none;
   color: #2b2b27;
@@ -629,7 +630,7 @@ header {
   font-weight: 300;
   transition: 4s;
 }
-/* line 113, _main-callout.scss */
+/* line 114, _main-callout.scss */
 .email:hover {
   color: #d4320b;
   transition: .1s;
@@ -638,17 +639,16 @@ header {
 /* line 1, _sub-callout.scss */
 ul.menu {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-top: 90px;
   text-align: center;
 }
-/* line 6, _sub-callout.scss */
+/* line 5, _sub-callout.scss */
 ul.menu li {
   display: inline-block;
   padding: 20px 35px;
 }
 
-/* line 12, _sub-callout.scss */
+/* line 11, _sub-callout.scss */
 a.page-link {
   position: relative;
   color: #d4320b;
@@ -656,6 +656,7 @@ a.page-link {
   padding: 17px;
   text-decoration: none;
   font-size: 18px;
+  letter-spacing: .9px;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
@@ -856,32 +857,87 @@ aside .side-pic a .pez-wall {
   width: 350px;
 }
 
-/* line 120, _main-container.scss */
+/* line 119, _main-container.scss */
+p.charity-footer {
+  font-family: 'Lato', serif;
+  border: 3px solid #a7e1f1;
+  padding: 15px;
+  border-radius: 18px;
+  background: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 130, _main-container.scss */
 .artists {
   width: 100%;
 }
-/* line 122, _main-container.scss */
+/* line 132, _main-container.scss */
 .artists .row-one {
-  margin-left: 7.2%;
-  margin-right: 7.2%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
-/* line 126, _main-container.scss */
+/* line 136, _main-container.scss */
 .artists .row-two {
-  margin-left: 7.2%;
-  margin-right: 7.2%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
-/* line 130, _main-container.scss */
+/* line 140, _main-container.scss */
 .artists .row-three {
-  margin-left: 7.2%;
-  margin-right: 7.2%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
-/* line 144, _main-container.scss */
+/* line 149, _main-container.scss */
+.specials {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d4320b;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* line 160, _main-container.scss */
+.bird-cage {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 163, _main-container.scss */
+.bird-cage ul {
+  list-style-type: none;
+}
+/* line 165, _main-container.scss */
+.bird-cage ul li {
+  width: 49%;
+  display: inline-block;
+}
+
+/* line 172, _main-container.scss */
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+/* line 182, _main-container.scss */
+.float:hover, .float:focus, .float:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+/* line 193, _main-container.scss */
 .map {
   display: inline;
 }
 
-/* line 148, _main-container.scss */
+/* line 197, _main-container.scss */
 .contact {
   text-align: center;
   background: white;
@@ -893,12 +949,12 @@ aside .side-pic a .pez-wall {
   border-radius: 8px;
   border: 3px solid #d4320b;
 }
-/* line 158, _main-container.scss */
+/* line 207, _main-container.scss */
 .contact h3 {
   border-bottom: 1px solid #9bd8eb;
   padding-bottom: 3px;
 }
-/* line 165, _main-container.scss */
+/* line 214, _main-container.scss */
 .contact a.button {
   border: 1px solid #a7e1f1;
   background: white;
@@ -906,16 +962,16 @@ aside .side-pic a .pez-wall {
   top: 10px;
   left: 0;
 }
-/* line 171, _main-container.scss */
+/* line 220, _main-container.scss */
 .contact a.button:hover {
   background: #9bd8eb;
   color: white;
 }
-/* line 176, _main-container.scss */
+/* line 225, _main-container.scss */
 .contact img.twitter {
   margin-top: 40px;
 }
-/* line 178, _main-container.scss */
+/* line 227, _main-container.scss */
 .contact img.twitter:hover {
   opacity: .5;
 }

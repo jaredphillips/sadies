@@ -1,16 +1,17 @@
 .main-callout {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	ul {
+		height: auto;
 		list-style-type: none;
 		li {
-			height: 188px;
 			float: left;
+			height: 100px;
 			width: 28%;
 			text-align: center;
 			margin: 0 2% 0 2%;
 			h3 {
-				font-size: 36px;
+				font-size: 30px;
 				letter-spacing: 1.9px;
 				font-family: 'Grand Hotel', 'cursive';
 				color: $red;
